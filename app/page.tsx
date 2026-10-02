@@ -55,14 +55,14 @@ export default function Page() {
       <WhatYouGet />
       <SubjectsSection />
       <ProductCarousel
-        title="Relacione, Interprete e Revise com Mais Clareza"
-        subtitle="Cada tipo de página ajuda você a acompanhar o raciocínio e revisar os pontos que mais geram dúvida."
+        title="Mais Clareza para Entender. Mais Recursos para Estudar."
+        subtitle="Explicações visuais, comparações, fórmulas e casos comentados reunidos para você aprofundar o conteúdo e revisar o que ainda gera dúvida."
         flowSteps={[
-          ['Fluxogramas de Interpretação', 'Acompanhe a ordem de leitura e as perguntas que orientam cada etapa.'],
+          ['Fluxogramas de Interpretação', 'Saiba o que analisar primeiro e como avançar na leitura da gasometria, com uma sequência visual que mostra como conectar os dados e chegar à interpretação.'],
           ['Explicações Visuais', 'Entenda as relações entre os parâmetros e os mecanismos dos distúrbios.'],
           ['Comparações de Padrões', 'Observe diferenças entre alterações respiratórias, metabólicas e respostas esperadas.'],
-          ['Fórmulas e Consulta', 'Encontre os cálculos e as siglas apresentados no material para apoiar sua revisão.'],
-          ['Casos Comentados', 'Pratique com resultados fictícios e confira o raciocínio explicado.'],
+          ['Fórmulas e Consulta', 'Confira como fazer os cálculos e o que eles ajudam a identificar, com as fórmulas e siglas organizadas para consultar quando surgir uma dúvida.'],
+          ['Casos Comentados', 'Entenda como aplicar o conteúdo em 14 casos comentados, com explicações que mostram o que observar nos valores e por que cada caso leva àquela interpretação.'],
         ]}
         items={carrossel2}
         reverse={true}
