@@ -9,146 +9,126 @@ type Block = {
   description: string;
 };
 
-const accent = '#1255C8';
+const accent = '#173D55';
 
 const blocks: Block[] = [
   {
     badge: 'FUNDAMENTOS',
-    title: 'Fundamentos da Anatomia Dental',
+    title: 'Fundamentos e Parâmetros',
     icon: Compass,
     accent,
     items: [
-      'Dentição permanente e decídua',
-      'Grupos dentários',
-      'Numeração dos dentes',
-      'Quadrantes',
-      'Maxila e mandíbula',
-      'Faces e superfícies dentárias',
-      'Mesial e distal',
-      'Terços dentários',
-      'Cúspides e vertentes',
-      'Cristas e arestas',
-      'Sulcos, fissuras e fossas',
-      'Anatomia das raízes',
-      'Anatomia interna',
-      'Oclusão e erupção',
+      'Como estudar com o guia',
+      'Mapa do conteúdo',
+      'Visão geral da interpretação',
+      'O que a gasometria avalia',
+      'Amostra arterial e venosa',
+      'Como ler um laudo',
+      'Valores de referência',
+      'pH, PaCO₂ e HCO₃⁻',
+      'PaO₂, SaO₂ e SpO₂',
+      'Excesso de base e lactato',
+      'Qualidade da amostra',
     ],
-    description: 'Construa a base visual necessária antes de avançar para a identificação dos dentes.',
+    description: 'Entenda o que cada dado representa antes de interpretar o conjunto.',
   },
   {
-    badge: 'DENTES ANTERIORES',
-    title: 'Incisivos e Caninos Permanentes',
+    badge: 'EQUILÍBRIO ÁCIDO-BASE',
+    title: 'Equilíbrio Ácido-Base',
     icon: Eye,
     accent,
     items: [
-      'Incisivo central superior',
-      'Incisivo lateral superior',
-      'Incisivo central inferior',
-      'Incisivo lateral inferior',
-      'Canino superior',
-      'Canino inferior',
-      'Diferentes vistas anatômicas',
-      'Como reconhecer',
-      'Como saber o lado',
-      'Comparações visuais',
-      'Não Confunda',
+      'Ácidos, bases e tampões',
+      'Papel dos pulmões e dos rins',
+      'Relação entre pH, CO₂ e bicarbonato',
+      'Ventilação e oxigenação',
+      'Os quatro distúrbios primários',
+      'O que é compensação',
     ],
-    description: 'Reconheça as diferenças que separam dentes anteriores visualmente semelhantes.',
+    description: 'Construa a base para compreender os mecanismos das alterações.',
   },
   {
-    badge: 'PRÉ-MOLARES',
-    title: 'Pré-Molares Permanentes',
+    badge: 'SEQUÊNCIA E DISTÚRBIOS',
+    title: 'Sequência e Distúrbios',
     icon: GitCompare,
     accent,
     items: [
-      '1º pré-molar superior',
-      '2º pré-molar superior',
-      '1º pré-molar inferior',
-      '2º pré-molar inferior',
-      'Vistas vestibulares',
-      'Vistas linguais/palatinas',
-      'Vistas proximais',
-      'Vistas oclusais',
-      'Cúspides',
-      'Sulcos',
-      'Raízes',
-      'Comparações lado a lado',
+      'Contexto antes dos números',
+      'Avaliação do pH',
+      'Relação entre os componentes',
+      'Verificação da compensação',
+      'Alterações associadas',
+      'Oxigenação e síntese',
+      'Acidose respiratória',
+      'Alcalose respiratória',
+      'Acidose metabólica',
+      'Alcalose metabólica',
     ],
-    description: 'Aprenda a diferenciar primeiros e segundos pré-molares superiores e inferiores.',
+    description: 'Siga uma ordem de leitura e entenda os principais padrões ácido-base.',
   },
   {
-    badge: 'MOLARES',
-    title: 'Molares Permanentes',
+    badge: 'COMPENSAÇÃO',
+    title: 'Compensação e Distúrbios Mistos',
     icon: Grid2x2,
     accent,
     items: [
-      '1º molar superior',
-      '2º molar superior',
-      '3º molar superior',
-      '1º molar inferior',
-      '2º molar inferior',
-      '3º molar inferior',
-      'Cúspides',
-      'Sulcos e fossas',
-      'Cristas',
-      'Raízes',
-      'Vista oclusal',
-      'Não Confunda',
+      'Fórmula de Winter',
+      'Resposta na alcalose metabólica',
+      'Distúrbios respiratórios agudos e crônicos',
+      'Cálculo do gap aniônico',
+      'Albumina e gap corrigido',
+      'Acidose metabólica e gap',
+      'Delta gap e razão delta',
+      'Reconhecimento de distúrbios mistos',
+      'Investigação com pH na faixa usual',
     ],
-    description: 'Reconheça padrões oclusais e características que diferenciam os molares.',
+    description: 'Compare a resposta observada com a esperada e reconheça pistas de alterações associadas.',
   },
   {
-    badge: 'DENTIÇÃO DECÍDUA',
-    title: 'Dentição Decídua',
+    badge: 'OXIGENAÇÃO',
+    title: 'Oxigenação',
     icon: Layers,
     accent,
     items: [
-      'Características gerais',
-      'Decíduos × permanentes',
-      'Incisivos superiores',
-      'Incisivos inferiores',
-      'Canino superior',
-      'Canino inferior',
-      'Molares superiores',
-      'Molares inferiores',
-      'Como identificar',
-      'Comparações visuais',
+      'PaO₂ e contexto',
+      'Relação PaO₂/FiO₂',
+      'Gradiente alvéolo-arterial',
+      'Mecanismos de hipoxemia',
+      'Curva da oxi-hemoglobina',
+      'Oxigênio no sangue e nos tecidos',
     ],
-    description: 'Entenda as características próprias dos dentes decíduos e evite confundi-los com permanentes.',
+    description: 'Relacione os resultados ao oxigênio ofertado e às condições da avaliação.',
   },
   {
-    badge: 'IDENTIFICAÇÃO',
-    title: 'Identificação Dental na Prática',
+    badge: 'CASOS E REVISÃO',
+    title: 'Casos e Revisão Final',
     icon: ListChecks,
     accent,
     items: [
-      'Por onde começar',
-      'Qual é o grupo dental',
-      'Superior ou inferior',
-      'Qual dente dentro do grupo',
-      'Direito ou esquerdo',
-      'Mesial e distal',
-      'Formato da coroa',
-      'Cúspides, cristas e sulcos',
-      'Vista incisal/oclusal',
-      'Número e formato das raízes',
-      'Anatomia interna',
-      'Checklist final',
+      '14 casos comentados',
+      'Padrões respiratórios e metabólicos',
+      'Distúrbios mistos',
+      'Casos de oxigenação',
+      'Leitura integrada',
+      'Erros frequentes',
+      'Roteiro de interpretação',
+      'Fórmulas e siglas',
+      'Checklist de estudo',
     ],
-    description: 'Use um processo lógico para chegar à identificação do dente com mais segurança.',
+    description: 'Pratique a leitura do conjunto e consulte os pontos essenciais para revisar.',
   },
 ];
 
 export function SubjectsSection() {
   return (
-    <section className="w-full py-16 md:py-24" style={{ backgroundColor: '#EAF6FC' }}>
+    <section className="w-full py-16 md:py-24" style={{ backgroundColor: '#EEF2F5' }}>
       <div className="mobile-content">
         <div className="mx-auto mb-10 flex max-w-3xl flex-col items-center gap-4 text-center md:mb-14">
-          <h2 className="font-grotesk text-3xl leading-tight text-pretty sm:text-4xl md:text-5xl" style={{ color: '#103F6E' }}>
+          <h2 className="font-grotesk text-3xl leading-tight text-pretty sm:text-4xl md:text-5xl" style={{ color: '#173D55' }}>
             Veja Tudo o Que Você Vai Encontrar no Material
           </h2>
-          <p className="max-w-2xl text-sm leading-relaxed sm:text-base md:text-lg" style={{ color: '#5B6B8A' }}>
-            O conteúdo foi dividido em seis volumes para você localizar rapidamente o que precisa estudar e entender cada dente com mais clareza.
+          <p className="max-w-2xl text-sm leading-relaxed sm:text-base md:text-lg" style={{ color: '#526176' }}>
+            O conteúdo foi dividido em seis blocos para você localizar rapidamente o que precisa estudar e acompanhar cada assunto com mais clareza.
           </p>
         </div>
 
@@ -159,23 +139,23 @@ export function SubjectsSection() {
               <article
                 key={block.badge}
                 className="flex flex-col rounded-[18px] border p-6 sm:p-7"
-                style={{ backgroundColor: '#FCFBF8', borderColor: 'rgba(16,63,110,0.12)', boxShadow: '0 8px 24px rgba(16,63,110,0.06)' }}
+                style={{ backgroundColor: '#FFFFFF', borderColor: '#DCE3E9', boxShadow: '0 8px 24px rgba(23,61,85,0.06)' }}
               >
                 <div className="flex items-center gap-3">
                   <span
                     className="flex shrink-0 items-center justify-center rounded-xl"
-                    style={{ width: '44px', height: '44px', backgroundColor: `${block.accent}14`, color: block.accent }}
+                    style={{ width: '44px', height: '44px', backgroundColor: '#DCEEF5', color: block.accent }}
                   >
                     <Icon size={22} strokeWidth={2} aria-hidden="true" />
                   </span>
                   <div className="flex flex-col">
                     <span
                       className="text-[10px] font-bold uppercase tracking-[0.14em]"
-                      style={{ color: block.accent }}
+                      style={{ color: '#526176' }}
                     >
                       {block.badge}
                     </span>
-                    <h3 className="font-grotesk text-lg leading-tight sm:text-xl" style={{ color: '#103F6E' }}>
+                    <h3 className="font-grotesk text-lg leading-tight sm:text-xl" style={{ color: '#173D55' }}>
                       {block.title}
                     </h3>
                   </div>
@@ -183,7 +163,7 @@ export function SubjectsSection() {
 
                 <ul className="mt-5 grid grid-cols-1 gap-x-4 gap-y-2 sm:grid-cols-2">
                   {block.items.map((item) => (
-                    <li key={item} className="flex items-start gap-2 text-sm" style={{ color: '#103F6E' }}>
+                    <li key={item} className="flex items-start gap-2 text-sm" style={{ color: '#293746' }}>
                       <span
                         className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full"
                         style={{ backgroundColor: block.accent }}
@@ -194,7 +174,7 @@ export function SubjectsSection() {
                   ))}
                 </ul>
 
-                <p className="mt-5 border-t pt-4 text-sm leading-relaxed" style={{ color: '#5B6B8A', borderColor: 'rgba(16,63,110,0.12)' }}>
+                <p className="mt-5 border-t pt-4 text-sm leading-relaxed" style={{ color: '#526176', borderColor: '#DCE3E9' }}>
                   {block.description}
                 </p>
               </article>

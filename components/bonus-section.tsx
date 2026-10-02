@@ -4,27 +4,27 @@ import { Star } from 'lucide-react';
 
 const bonuses = [
   {
-    label: 'BÔNUS 1',
-    name: 'Mapa Visual de Erupção Dental',
+    label: 'RECURSO 1',
+    name: '14 Casos Comentados',
     description:
-      'Material visual organizado para consultar rapidamente a cronologia de erupção, troca e desenvolvimento da dentição decídua e permanente.',
-    oldPrice: 'De R$ 17,00',
+      'Casos fictícios com diferentes padrões ácido-base e de oxigenação, acompanhados de comentários para conferir o raciocínio.',
+    note: 'Parte das 60 páginas',
     image: '/images/dental/bonus-erupcao.webp',
   },
   {
-    label: 'BÔNUS 2',
-    name: 'Checklist de Identificação Dental',
+    label: 'RECURSO 2',
+    name: 'Roteiro de Interpretação',
     description:
-      'Roteiro prático para seguir durante a identificação dos dentes, observando grupo dental, arcada, lado, raízes e principais características anatômicas.',
-    oldPrice: 'De R$ 19,90',
+      'Uma sequência de consulta para reunir contexto, parâmetros, resposta esperada, gap, oxigenação e síntese.',
+    note: 'Parte das 60 páginas',
     image: '/images/dental/bonus-checklist.webp',
   },
   {
-    label: 'BÔNUS 3',
-    name: 'Revisão Rápida de Anatomia Dental',
+    label: 'RECURSO 3',
+    name: 'Fórmulas e Revisão Final',
     description:
-      'Resumo visual com os principais pontos da anatomia dental reunidos em um material compacto para revisar antes de provas, aulas e avaliações práticas.',
-    oldPrice: 'De R$ 24,00',
+      'Fórmulas, siglas, erros frequentes e checklist para consultar os pontos essenciais durante o estudo.',
+    note: 'Parte das 60 páginas',
     image: '/images/dental/bonus-revisao.webp',
   },
 ];
@@ -41,18 +41,18 @@ function StarRow() {
 
 export function BonusSection() {
   return (
-      <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#103F6E' }}>
+      <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#DCEEF5' }}>
       <div className="mobile-content">
         {/* Cabeçalho */}
         <div className="flex flex-col items-center text-center gap-3 md:gap-4 mb-10 md:mb-14">
           <span className="font-grotesk text-xs sm:text-sm font-bold uppercase tracking-[0.2em]" style={{ color: '#22C55E' }}>
-            Bônus Inclusos
+            Recursos Inclusos
           </span>
-          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-balance" style={{ color: '#FCFBF8' }}>
-            Além do Material Principal, Você Recebe Mais 3 Bônus
+          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-balance" style={{ color: '#173D55' }}>
+            Além das Explicações, Você Conta com 3 Recursos de Estudo
           </h2>
-          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: 'rgba(252,251,248,0.90)' }}>
-            Recursos extras para complementar seus estudos e reforçar os principais conteúdos de Anatomia Dental.
+          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#526176' }}>
+            Recursos integrados ao próprio guia para praticar, revisar e acompanhar a interpretação.
           </p>
         </div>
 
@@ -63,16 +63,16 @@ export function BonusSection() {
               key={bonus.label}
               className="bonus-card flex w-full flex-col rounded-[20px] p-5 sm:p-6"
               style={{
-                backgroundColor: '#FCFBF8',
-                border: '1px solid rgba(16,63,110,0.12)',
-                boxShadow: '0 12px 30px rgba(16, 63, 110, 0.28)',
+                backgroundColor: '#FFFFFF',
+                border: '1px solid #DCE3E9',
+                boxShadow: '0 12px 30px rgba(23, 61, 85, 0.10)',
                 transition: 'all 250ms ease',
               }}
             >
               {/* Badge */}
               <span
                 className="self-start rounded-full px-3 py-1 text-[11px] font-bold uppercase tracking-wide"
-                style={{ backgroundColor: '#1255C8', color: '#FCFBF8' }}
+                style={{ backgroundColor: '#173D55', color: '#FFFFFF' }}
               >
                 {bonus.label}
               </span>
@@ -81,7 +81,7 @@ export function BonusSection() {
               <div className="mt-4 flex justify-center">
                 <img
                   src={bonus.image || '/placeholder.svg'}
-                  alt={`Capa do bônus: ${bonus.name}`}
+                  alt={`Recurso do guia: ${bonus.name}`}
                   className="w-full max-w-[320px] h-auto object-contain drop-shadow-xl"
                   loading="lazy"
                 />
@@ -93,25 +93,25 @@ export function BonusSection() {
               </div>
 
               {/* Nome */}
-              <h3 className="mt-3 font-grotesk text-base sm:text-lg leading-snug" style={{ color: '#103F6E' }}>
+              <h3 className="mt-3 font-grotesk text-base sm:text-lg leading-snug" style={{ color: '#173D55' }}>
                 {bonus.name}
               </h3>
 
               {/* Descrição */}
-              <p className="mt-2 flex-1 text-sm leading-relaxed" style={{ color: '#5B6B8A' }}>
+              <p className="mt-2 flex-1 text-sm leading-relaxed" style={{ color: '#526176' }}>
                 {bonus.description}
               </p>
 
-              {/* Preço + selo */}
-              <div className="mt-5 flex items-center justify-between gap-3 border-t pt-4" style={{ borderColor: 'rgba(16,63,110,0.12)' }}>
-                <span className="text-sm line-through" style={{ color: '#5B6B8A' }}>
-                  {bonus.oldPrice}
+              {/* Observação + selo */}
+              <div className="mt-5 flex items-center justify-between gap-3 border-t pt-4" style={{ borderColor: '#DCE3E9' }}>
+                <span className="text-sm" style={{ color: '#526176' }}>
+                  {bonus.note}
                 </span>
                 <span
                   className="rounded-full px-3 py-1.5 text-xs font-bold uppercase tracking-wide"
                   style={{ backgroundColor: '#22C55E', color: '#FFFFFF' }}
                 >
-                  Hoje grátis
+                  Incluso no guia
                 </span>
               </div>
             </div>
@@ -122,8 +122,8 @@ export function BonusSection() {
       <style>{`
         .bonus-card:hover {
           transform: translateY(-4px);
-          border-color: #1255C8;
-          box-shadow: 0 20px 42px rgba(16, 63, 110, 0.34);
+          border-color: #173D55;
+          box-shadow: 0 20px 42px rgba(23, 61, 85, 0.16);
         }
       `}</style>
     </section>

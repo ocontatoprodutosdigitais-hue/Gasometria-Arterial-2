@@ -15,58 +15,58 @@ import { FAQ } from '@/components/faq';
 import { FinalCta } from '@/components/final-cta';
 import { Footer } from '@/components/footer';
 
-// Páginas internas reais da coleção do Guia Visual de Anatomia Dental
+// Imagens atuais mantidas provisoriamente; serão trocadas por páginas do guia de gasometria.
 const carrossel1 = [
-  { image: '/images/dental/v1-quadrantes.webp', title: 'Quadrantes Dentários', tag: 'Vol. 1 · Fundamentos' },
-  { image: '/images/dental/v1-numeracao-permanentes.webp', title: 'Numeração dos Dentes Permanentes', tag: 'Vol. 1 · Fundamentos' },
-  { image: '/images/dental/v1-numeracao-deciduos.webp', title: 'Numeração dos Dentes Decíduos', tag: 'Vol. 1 · Fundamentos' },
-  { image: '/images/dental/v1-mesial-distal.webp', title: 'Mesial × Distal', tag: 'Vol. 1 · Fundamentos' },
-  { image: '/images/dental/v1-coroa-colo-raiz.webp', title: 'Coroa, Colo e Raiz', tag: 'Vol. 1 · Fundamentos' },
-  { image: '/images/dental/v1-sulcos-fissuras.webp', title: 'Sulcos, Fissuras e Fossetas', tag: 'Vol. 1 · Fundamentos' },
-  { image: '/images/dental/v1-cuspides-vertentes.webp', title: 'Cúspides e Vertentes', tag: 'Vol. 1 · Fundamentos' },
-  { image: '/images/dental/v1-oclusao.webp', title: 'Oclusão: Conceitos Essenciais', tag: 'Vol. 1 · Fundamentos' },
+  { image: '/images/dental/v1-quadrantes.webp', title: 'Visão Geral da Interpretação', tag: 'Fundamentos e Parâmetros' },
+  { image: '/images/dental/v1-numeracao-permanentes.webp', title: 'Como Ler um Laudo', tag: 'Fundamentos e Parâmetros' },
+  { image: '/images/dental/v1-numeracao-deciduos.webp', title: 'pH: O Estado Ácido-Base', tag: 'Fundamentos e Parâmetros' },
+  { image: '/images/dental/v1-mesial-distal.webp', title: 'PaCO₂: O Componente Respiratório', tag: 'Fundamentos e Parâmetros' },
+  { image: '/images/dental/v1-coroa-colo-raiz.webp', title: 'HCO₃⁻: O Componente Metabólico', tag: 'Fundamentos e Parâmetros' },
+  { image: '/images/dental/v1-sulcos-fissuras.webp', title: 'Os Quatro Distúrbios Primários', tag: 'Equilíbrio Ácido-Base' },
+  { image: '/images/dental/v1-cuspides-vertentes.webp', title: 'Verifique a Compensação', tag: 'Sequência e Distúrbios' },
+  { image: '/images/dental/v1-oclusao.webp', title: 'Casos Comentados', tag: 'Casos e Revisão Final' },
 ];
 
 const carrossel2 = [
-  { image: '/images/dental/c2-incisivo-central.webp', title: 'Incisivo Central Superior', tag: 'Vol. 2 · Anteriores' },
-  { image: '/images/dental/c2-canino-inferior.webp', title: 'Canino Inferior: Vistas do Dente', tag: 'Vol. 2 · Anteriores' },
-  { image: '/images/dental/c2-premolar-superior.webp', title: '1º Pré-Molar Superior', tag: 'Vol. 3 · Pré-Molares' },
-  { image: '/images/dental/c2-premolar-oclusal.webp', title: '1º Pré-Molar: Vista Oclusal', tag: 'Vol. 3 · Pré-Molares' },
-  { image: '/images/dental/c2-resumao-premolares.webp', title: 'Resumão Visual dos Pré-Molares', tag: 'Vol. 3 · Pré-Molares' },
-  { image: '/images/dental/c2-molar-superior.webp', title: '1º Molar Superior', tag: 'Vol. 4 · Molares' },
-  { image: '/images/dental/c2-denticao-decidua.webp', title: 'Decíduos × Permanentes', tag: 'Vol. 5 · Decídua' },
-  { image: '/images/dental/c2-mesial-distal.webp', title: 'Como Encontrar Mesial e Distal', tag: 'Vol. 6 · Identificação' },
+  { image: '/images/dental/c2-incisivo-central.webp', title: 'Compensação na Acidose Metabólica', tag: 'Compensação e Distúrbios Mistos' },
+  { image: '/images/dental/c2-canino-inferior.webp', title: 'Como Calcular o Gap Aniônico', tag: 'Compensação e Distúrbios Mistos' },
+  { image: '/images/dental/c2-premolar-superior.webp', title: 'Albumina e Gap Corrigido', tag: 'Compensação e Distúrbios Mistos' },
+  { image: '/images/dental/c2-premolar-oclusal.webp', title: 'Como Reconhecer Distúrbios Mistos', tag: 'Compensação e Distúrbios Mistos' },
+  { image: '/images/dental/c2-resumao-premolares.webp', title: 'PaO₂ Depende do Contexto', tag: 'Oxigenação' },
+  { image: '/images/dental/c2-molar-superior.webp', title: 'Relação PaO₂/FiO₂', tag: 'Oxigenação' },
+  { image: '/images/dental/c2-denticao-decidua.webp', title: 'Roteiro de Interpretação', tag: 'Casos e Revisão Final' },
+  { image: '/images/dental/c2-mesial-distal.webp', title: 'Fórmulas e Siglas', tag: 'Casos e Revisão Final' },
 ];
 
 export default function Page() {
   const offerRef = useRef<HTMLDivElement>(null);
   const handleCtaClick = () => offerRef.current?.scrollIntoView({ behavior: 'smooth' });
   return (
-    <main className="min-h-screen" style={{ backgroundColor: '#EAF6FC' }}>
+    <main className="min-h-screen" style={{ backgroundColor: '#FAFBFC' }}>
       <TopBar />
       <HeroSection onCtaClick={handleCtaClick} />
       <ProductCarousel
-        title="Conheça o Guia Visual de Anatomia Dental por Dentro"
-        subtitle="Veja como o conteúdo foi organizado para você bater o olho, reconhecer os dentes, comparar características e entender exatamente o que está observando."
+        title="Conheça o Guia Visual de Gasometria Arterial por Dentro"
+        subtitle="Veja como o conteúdo foi organizado para você acompanhar as etapas de interpretação, relacionar os parâmetros e entender o conjunto dos resultados."
         items={carrossel1}
-        bg="#FCFBF8"
+        bg="#FAFBFC"
       />
       <HowItWorks />
       <WhatYouGet />
       <SubjectsSection />
       <ProductCarousel
-        title="Identifique, Compare e Diferencie com Mais Clareza"
-        subtitle="Cada tipo de página ajuda você a reconhecer dentes, comparar diferenças e revisar os pontos que mais geram dúvida."
+        title="Relacione, Interprete e Revise com Mais Clareza"
+        subtitle="Cada tipo de página ajuda você a acompanhar o raciocínio e revisar os pontos que mais geram dúvida."
         flowSteps={[
-          ['Identificação Visual', 'Veja o dente em diferentes vistas e identifique suas principais características.'],
-          ['Como Reconhecer', 'Entenda quais características ajudam a reconhecer cada dente.'],
-          ['Como Saber o Lado', 'Use contornos, ângulos, cúspides e raízes para diferenciar direita e esquerda.'],
-          ['Não Confunda', 'Compare dentes parecidos lado a lado e veja exatamente o que diferencia um do outro.'],
-          ['Comparações Visuais', 'Compare superiores × inferiores, centrais × laterais, 1º × 2º, decíduos × permanentes e muito mais.'],
+          ['Fluxogramas de Interpretação', 'Acompanhe a ordem de leitura e as perguntas que orientam cada etapa.'],
+          ['Explicações Visuais', 'Entenda as relações entre os parâmetros e os mecanismos dos distúrbios.'],
+          ['Comparações de Padrões', 'Observe diferenças entre alterações respiratórias, metabólicas e respostas esperadas.'],
+          ['Fórmulas e Consulta', 'Encontre os cálculos e as siglas apresentados no material para apoiar sua revisão.'],
+          ['Casos Comentados', 'Pratique com resultados fictícios e confira o raciocínio explicado.'],
         ]}
         items={carrossel2}
         reverse={true}
-        bg="#FCFBF8"
+        bg="#FAFBFC"
       />
       <Testimonials />
       <BonusSection />

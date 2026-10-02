@@ -1,22 +1,22 @@
 export function WhatYouGet() {
   const collections = [
-    ['24', 'FUNDAMENTOS DA ANATOMIA DENTAL', 'Construa a base necessária para compreender a anatomia dos dentes, passando por dentições, grupos dentários, numeração, faces, superfícies, terços, cúspides, sulcos, fossas, raízes, arcadas e oclusão.', 'Entender a linguagem visual da Anatomia Dental.'],
-    ['24', 'INCISIVOS E CANINOS PERMANENTES', 'Estude incisivos e caninos superiores e inferiores em diferentes vistas, aprendendo suas características anatômicas, diferenças, formas de reconhecimento e como identificar o lado correto.', 'Reconhecer e diferenciar os dentes anteriores.'],
-    ['24', 'PRÉ-MOLARES PERMANENTES', 'Compare primeiros e segundos pré-molares superiores e inferiores através das vistas vestibular, palatina/lingual, proximal e oclusal, observando cúspides, sulcos, raízes e contornos.', 'Diferenciar pré-molares semelhantes com mais segurança.'],
-    ['32', 'MOLARES PERMANENTES', 'Explore primeiros, segundos e terceiros molares superiores e inferiores, com foco em vistas oclusais, cúspides, sulcos, fossas, raízes e características que ajudam na identificação.', 'Reconhecer os dentes posteriores mais complexos.'],
-    ['18', 'DENTIÇÃO DECÍDUA', 'Visualize incisivos, caninos e molares decíduos, compare com a dentição permanente e aprenda as diferenças de tamanho, coroa, raízes, esmalte e proporções.', 'Diferenciar dentes decíduos dos permanentes.'],
-    ['18', 'IDENTIFICAÇÃO DENTAL NA PRÁTICA', 'Use um método visual para reconhecer grupo dental, arcada, dente específico, lado, formato da coroa, cúspides, raízes, anatomia interna e outros detalhes decisivos.', 'Transformar conhecimento anatômico em identificação prática.'],
+    ['14', 'FUNDAMENTOS E PARÂMETROS', 'Conheça a proposta do guia, o roteiro geral de interpretação, as diferenças entre amostras, a leitura do laudo e os principais parâmetros da gasometria.', 'Entender o exame e o significado dos seus dados.'],
+    ['6', 'EQUILÍBRIO ÁCIDO-BASE', 'Estude ácidos, bases, tampões, o papel dos pulmões e dos rins, a relação entre pH, CO₂ e bicarbonato e os quatro distúrbios primários.', 'Compreender a lógica por trás das alterações.'],
+    ['14', 'SEQUÊNCIA E DISTÚRBIOS', 'Acompanhe a ordem de leitura da gasometria e aprofunde os mecanismos e a interpretação das acidoses e alcaloses respiratórias e metabólicas.', 'Organizar o raciocínio e reconhecer os principais padrões.'],
+    ['9', 'COMPENSAÇÃO E DISTÚRBIOS MISTOS', 'Explore a resposta esperada, a fórmula de Winter, o gap aniônico, a correção pela albumina e as pistas para reconhecer alterações associadas.', 'Comparar os resultados e investigar distúrbios mistos.'],
+    ['6', 'OXIGENAÇÃO', 'Relacione PaO₂ e FiO₂, acompanhe a relação P/F, o gradiente alvéolo-arterial, os mecanismos de hipoxemia e o transporte de oxigênio.', 'Interpretar a oxigenação considerando o contexto.'],
+    ['11', 'CASOS E REVISÃO FINAL', 'Pratique com 14 casos comentados em sete páginas e revise os erros frequentes, o roteiro de interpretação e as fórmulas e siglas.', 'Aplicar o raciocínio e revisar o conteúdo.'],
   ];
 
   return (
-    <section className="w-full py-16 md:py-24" style={{ backgroundColor: '#FCFBF8' }}>
+    <section className="w-full py-16 md:py-24" style={{ backgroundColor: '#FAFBFC' }}>
       <div className="mobile-content">
         <div className="mx-auto mb-10 flex max-w-3xl flex-col items-center gap-4 text-center md:mb-12">
-          <h2 className="font-grotesk text-3xl leading-tight text-pretty sm:text-4xl md:text-5xl" style={{ color: '#103F6E' }}>
-            Anatomia Dental Organizada em 6 Coleções Visuais
+          <h2 className="font-grotesk text-3xl leading-tight text-pretty sm:text-4xl md:text-5xl" style={{ color: '#173D55' }}>
+            Gasometria Arterial Organizada em 6 Blocos Visuais
           </h2>
-          <p className="max-w-2xl text-sm leading-relaxed sm:text-base md:text-lg" style={{ color: '#5B6B8A' }}>
-            Cada volume reúne uma parte importante da Anatomia Dental, organizada visualmente para facilitar a identificação, comparação e revisão durante o estudo.
+          <p className="max-w-2xl text-sm leading-relaxed sm:text-base md:text-lg" style={{ color: '#526176' }}>
+            Cada bloco reúne uma parte importante da gasometria arterial, organizada visualmente para facilitar a compreensão, a consulta e a revisão durante o estudo.
           </p>
         </div>
 
@@ -24,24 +24,24 @@ export function WhatYouGet() {
           {collections.map(([count, title, description, funcao]) => (
             <article
               key={title}
-              className="group relative flex min-h-[220px] flex-col rounded-[18px] border p-6 shadow-[0_8px_24px_rgba(16,63,110,0.06)] transition-all duration-250 hover:-translate-y-1 hover:border-[#1255C8] hover:shadow-[0_14px_30px_rgba(16,63,110,0.12)]"
-              style={{ backgroundColor: '#FCFBF8', borderColor: 'rgba(16,63,110,0.12)' }}
+              className="group relative flex min-h-[220px] flex-col rounded-[18px] border p-6 shadow-[0_8px_24px_rgba(23,61,85,0.06)] transition-all duration-250 hover:-translate-y-1 hover:border-[#173D55] hover:shadow-[0_14px_30px_rgba(23,61,85,0.12)]"
+              style={{ backgroundColor: '#FFFFFF', borderColor: '#DCE3E9' }}
             >
-              <div className="absolute inset-x-6 top-0 h-1 rounded-b-full bg-[#1255C8] opacity-70 transition-opacity duration-250 group-hover:opacity-100" />
+              <div className="absolute inset-x-6 top-0 h-1 rounded-b-full bg-[#173D55] opacity-70 transition-opacity duration-250 group-hover:opacity-100" />
               <div className="flex items-baseline gap-2">
-                <span className="font-grotesk text-4xl leading-none sm:text-5xl" style={{ color: '#1255C8' }}>
+                <span className="font-grotesk text-4xl leading-none sm:text-5xl" style={{ color: '#173D55' }}>
                   {count}
                 </span>
-                <span className="text-xs font-bold uppercase tracking-wider" style={{ color: '#1255C8' }}>
+                <span className="text-xs font-bold uppercase tracking-wider" style={{ color: '#173D55' }}>
                   Páginas
                 </span>
               </div>
               <div className="mt-4 flex flex-1 flex-col">
-                <h3 className="font-grotesk text-lg leading-tight text-pretty sm:text-xl uppercase tracking-wide" style={{ color: '#103F6E' }}>{title}</h3>
-                <p className="mt-3 text-sm leading-relaxed" style={{ color: '#5B6B8A' }}>{description}</p>
+                <h3 className="font-grotesk text-lg leading-tight text-pretty sm:text-xl uppercase tracking-wide" style={{ color: '#173D55' }}>{title}</h3>
+                <p className="mt-3 text-sm leading-relaxed" style={{ color: '#526176' }}>{description}</p>
               </div>
-              <p className="mt-5 border-t pt-4 text-xs sm:text-sm" style={{ color: '#5B6B8A', borderColor: 'rgba(16,63,110,0.12)' }}>
-                <span className="font-bold uppercase tracking-wide" style={{ color: '#1255C8' }}>Função:</span>{' '}
+              <p className="mt-5 border-t pt-4 text-xs sm:text-sm" style={{ color: '#526176', borderColor: '#DCE3E9' }}>
+                <span className="font-bold uppercase tracking-wide" style={{ color: '#173D55' }}>Função:</span>{' '}
                 {funcao}
               </p>
             </article>

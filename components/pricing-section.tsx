@@ -3,27 +3,26 @@
 import { Check, Star } from 'lucide-react';
 
 /* ===== Constantes de preço e checkout (fáceis de editar) ===== */
-const PRICE = 'R$ 19,90';
-const TOTAL_PRICE = 'R$ 80,80';
+const PRICE = 'R$ 24,90';
 const CHECKOUT_URL = 'https://pay.cakto.com.br/t2jycye_1130420';
 
 /* O que está incluído na oferta (destaque principal do pacote) */
-const highlightFeature: [string, string] = ['140', 'páginas visuais de Anatomia Dental'];
+const highlightFeature: [string, string] = ['60', 'páginas visuais de Gasometria Arterial'];
 
-/* Conteúdos por volume */
+/* Conteúdos por bloco */
 const includedFeatures: [string, string][] = [
-  ['24 páginas', 'Fundamentos da Anatomia Dental'],
-  ['24 páginas', 'Incisivos e Caninos Permanentes'],
-  ['24 páginas', 'Pré-Molares Permanentes'],
-  ['32 páginas', 'Molares Permanentes'],
-  ['18 páginas', 'Dentição Decídua'],
-  ['18 páginas', 'Identificação Dental na Prática'],
+  ['14 páginas', 'Fundamentos e Parâmetros'],
+  ['6 páginas', 'Equilíbrio Ácido-Base'],
+  ['14 páginas', 'Sequência e Distúrbios'],
+  ['9 páginas', 'Compensação e Distúrbios Mistos'],
+  ['6 páginas', 'Oxigenação'],
+  ['11 páginas', 'Casos e Revisão Final'],
 ];
 
 const bonuses = [
-  'Bônus #1 — Mapa Visual de Erupção Dental',
-  'Bônus #2 — Checklist de Identificação Dental',
-  'Bônus #3 — Revisão Rápida de Anatomia Dental',
+  'Recurso #1 — 14 Casos Comentados',
+  'Recurso #2 — Roteiro de Interpretação',
+  'Recurso #3 — Fórmulas e Revisão Final',
 ];
 
 function goToCheckout(url: string) {
@@ -35,14 +34,14 @@ function goToCheckout(url: string) {
 
 export function PricingSection() {
   return (
-    <section id="checkout" className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#FCFBF8' }}>
+    <section id="checkout" className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#FAFBFC' }}>
       <div className="mobile-content">
         {/* Cabeçalho */}
         <div className="flex flex-col items-center text-center gap-3 md:gap-4 mb-10 md:mb-14">
-          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#103F6E' }}>
+          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#173D55' }}>
             
           </h2>
-          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#5B6B8A' }}>
+          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#526176' }}>
             
           </p>
         </div>
@@ -52,9 +51,9 @@ export function PricingSection() {
           <div
             className="relative flex w-full flex-col rounded-[22px] p-6 pt-10 sm:p-8 sm:pt-11"
             style={{
-              backgroundColor: '#103F6E',
-              border: '2px solid #1255C8',
-              boxShadow: '0 24px 55px rgba(16, 63, 110, 0.45)',
+              backgroundColor: '#DCEEF5',
+              border: '2px solid #DCE3E9',
+              boxShadow: '0 24px 55px rgba(23, 61, 85, 0.14)',
             }}
           >
             {/* Badge OFERTA ESPECIAL */}
@@ -68,8 +67,8 @@ export function PricingSection() {
 
             {/* Nome */}
             <div className="text-center">
-              <h3 className="font-grotesk text-2xl sm:text-3xl leading-tight text-balance" style={{ color: '#FCFBF8' }}>
-                Guia Visual de Anatomia Dental
+              <h3 className="font-grotesk text-2xl sm:text-3xl leading-tight text-balance" style={{ color: '#173D55' }}>
+                Guia Visual de Gasometria Arterial
               </h3>
             </div>
 
@@ -77,7 +76,7 @@ export function PricingSection() {
             <div className="mt-5 flex justify-center">
               <img
                 src="/images/dental/pricing-colecao-v3.webp"
-                alt="Coleção completa do Guia Visual de Anatomia Dental com os 6 volumes, os três bônus e o selo de garantia de 7 dias"
+                alt="Guia Visual de Gasometria Arterial em PDF com 60 páginas e garantia de 7 dias"
                 className="w-full max-w-[440px] h-auto object-contain drop-shadow-xl"
                 loading="lazy"
               />
@@ -92,8 +91,8 @@ export function PricingSection() {
                 >
                   <Check size={15} strokeWidth={3} aria-hidden="true" />
                 </span>
-                <span className="text-base sm:text-lg leading-snug" style={{ color: '#FCFBF8' }}>
-                  <span className="font-bold" style={{ color: '#FCFBF8' }}>{highlightFeature[0]}</span>{' '}
+                <span className="text-base sm:text-lg leading-snug" style={{ color: '#173D55' }}>
+                  <span className="font-bold" style={{ color: '#173D55' }}>{highlightFeature[0]}</span>{' '}
                   <span className="font-semibold">{highlightFeature[1]}</span>
                 </span>
               </li>
@@ -106,21 +105,21 @@ export function PricingSection() {
                   >
                     <Check size={14} strokeWidth={3} aria-hidden="true" />
                   </span>
-                  <span className="text-sm sm:text-base leading-snug" style={{ color: '#FCFBF8' }}>
+                  <span className="text-sm sm:text-base leading-snug" style={{ color: '#293746' }}>
                     <span className="font-bold">{num}</span> — {rest}
                   </span>
                 </li>
               ))}
             </ul>
 
-            {/* Bônus */}
+            {/* Recursos */}
             <ul className="mt-5 space-y-3">
               {bonuses.map((bonus) => (
                 <li key={bonus} className="flex items-start gap-3">
                   <span className="mt-0.5 shrink-0 text-base leading-none" aria-hidden="true">
                     🎁
                   </span>
-                  <span className="text-sm sm:text-base font-semibold leading-snug" style={{ color: '#FCFBF8' }}>
+                  <span className="text-sm sm:text-base font-semibold leading-snug" style={{ color: '#293746' }}>
                     {bonus}
                   </span>
                 </li>
@@ -128,20 +127,20 @@ export function PricingSection() {
             </ul>
 
             {/* Separador antes da área de preço */}
-            <div className="mt-6 mb-5 h-px w-full" style={{ backgroundColor: 'rgba(252,251,248,0.18)' }} />
+            <div className="mt-6 mb-5 h-px w-full" style={{ backgroundColor: 'rgba(23,61,85,0.18)' }} />
 
             {/* Área de preço */}
             <div className="text-center">
-              <p className="text-sm" style={{ color: 'rgba(252,251,248,0.75)' }}>
-                Valor total: <span className="line-through">{TOTAL_PRICE}</span>
+              <p className="text-sm" style={{ color: '#526176' }}>
+                Guia completo em PDF
               </p>
-              <p className="mt-3 font-grotesk text-xs sm:text-sm uppercase tracking-[0.16em]" style={{ color: '#FFFFFF' }}>
+              <p className="mt-3 font-grotesk text-xs sm:text-sm uppercase tracking-[0.16em]" style={{ color: '#173D55' }}>
                 Hoje por apenas
               </p>
               <p className="mt-1 font-grotesk text-6xl sm:text-7xl leading-none" style={{ color: '#22C55E' }}>
                 {PRICE}
               </p>
-              <p className="mt-3 text-xs sm:text-sm font-medium" style={{ color: 'rgba(252,251,248,0.75)' }}>
+              <p className="mt-3 text-xs sm:text-sm font-medium" style={{ color: '#526176' }}>
                 Pagamento único • Sem mensalidade
               </p>
             </div>
@@ -170,7 +169,7 @@ export function PricingSection() {
             </button>
 
             {/* Linha de confiança */}
-            <p className="mt-5 text-center text-xs sm:text-sm font-medium leading-relaxed" style={{ color: 'rgba(252,251,248,0.85)' }}>
+            <p className="mt-5 text-center text-xs sm:text-sm font-medium leading-relaxed" style={{ color: '#293746' }}>
               🔒 Compra segura • 💳 Pagamento protegido • ⚡ Acesso imediato • ✅ 7 dias de garantia
             </p>
           </div>
