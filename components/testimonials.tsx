@@ -35,7 +35,7 @@ const depoimentos = [
 
 export function Testimonials() {
   return (
-    <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#EAF6FC' }}>
+    <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#EEF2F5' }}>
       <div className="mobile-content">
         <div className="flex flex-col items-center text-center gap-4 mb-12 md:mb-16">
           <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#103F6E' }}>

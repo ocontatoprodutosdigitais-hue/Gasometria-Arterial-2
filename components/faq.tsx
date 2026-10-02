@@ -7,45 +7,45 @@ export function FAQ() {
 
   const faqItems = [
     {
-      q: 'Para quem é o Guia Visual de Anatomia Dental?',
-      a: 'O material foi criado para quem deseja estudar, revisar ou compreender Anatomia Dental de forma mais visual e organizada. Ele pode ser utilizado por estudantes e por qualquer pessoa que precise revisar a anatomia e identificação dos dentes.',
+      q: 'Para quem é o Guia Visual de Gasometria Arterial?',
+      a: 'Para quem deseja estudar, revisar ou compreender melhor a gasometria arterial. O conteúdo reúne fundamentos, etapas de interpretação, distúrbios, oxigenação e casos comentados para acompanhar diferentes momentos do estudo.',
     },
     {
-      q: 'Quais dentes aparecem no material?',
-      a: 'O guia aborda dentição permanente e decídua, incluindo incisivos, caninos, pré-molares e molares superiores e inferiores, além de comparações, vistas anatômicas e identificação prática.',
+      q: 'Quais assuntos aparecem no material?',
+      a: 'O guia aborda os parâmetros do laudo, equilíbrio ácido-base, sequência de interpretação, distúrbios respiratórios e metabólicos, compensação, gap aniônico e oxigenação. Também inclui 14 casos comentados e revisão final, dentro das 60 páginas.',
     },
     {
       q: 'O material substitui livros e aulas?',
-      a: 'Não. O Guia Visual foi desenvolvido como material complementar para facilitar a visualização, identificação, comparação e revisão dos conteúdos de Anatomia Dental.',
+      a: 'O guia funciona como material complementar de estudo e consulta. Não substitui livros, aulas, protocolos ou avaliação profissional. Os casos apresentados são fictícios e servem para praticar o raciocínio.',
     },
     {
       q: 'O material é físico ou digital?',
-      a: 'É um material 100% digital. Você recebe o acesso após a confirmação do pagamento e pode consultá-lo sem precisar esperar entrega física.',
+      a: 'O material é digital, em PDF. Você não receberá um produto físico pelos Correios.',
     },
     {
       q: 'Posso acessar pelo celular?',
-      a: 'Sim. O material pode ser acessado pelo celular, tablet ou computador.',
+      a: 'Sim. O PDF pode ser aberto no celular, tablet ou computador. Você pode ampliar as páginas para visualizar os detalhes.',
     },
     {
       q: 'Posso imprimir?',
-      a: 'Sim. Como o material é disponibilizado digitalmente, você também pode imprimir as páginas para uso pessoal, se preferir estudar no papel.',
+      a: 'Sim. Você pode imprimir o PDF para uso pessoal e organizar suas revisões da forma que preferir.',
     },
     {
       q: 'Como receberei o acesso e por quanto tempo poderei usar?',
-      a: 'Após a confirmação do pagamento, você receberá as instruções de acesso no e-mail informado na compra. O acesso é vitalício, para consultar o material sempre que precisar.',
+      a: 'As instruções de acesso serão disponibilizadas após a confirmação do pagamento, pelo canal informado no checkout. Depois de baixar o PDF, você poderá guardar o arquivo e consultá-lo quando precisar. O pagamento é único, sem mensalidade.',
     },
     {
       q: 'Como funciona a garantia?',
-      a: 'Você tem 7 dias para conhecer o material. Caso entenda que ele não atende às suas expectativas, poderá solicitar o reembolso dentro do prazo da garantia.',
+      a: 'Você tem 7 dias para conhecer o material. Caso ele não atenda às suas expectativas, poderá solicitar o reembolso pelo canal de atendimento informado na compra, dentro desse prazo.',
     },
   ];
 
   return (
-    <section className="w-full py-14 px-0" style={{ backgroundColor: '#103F6E' }}>
+    <section className="w-full py-14 px-0" style={{ backgroundColor: '#DCEEF5' }}>
       <div className="mobile-content">
         <h2
           className="font-grotesk text-center"
-          style={{ color: '#FCFBF8', fontSize: '32px', fontWeight: 600, marginBottom: '28px', lineHeight: 1.2 }}
+          style={{ color: '#173D55', fontSize: '32px', fontWeight: 600, marginBottom: '28px', lineHeight: 1.2 }}
         >
           Perguntas Frequentes
         </h2>
@@ -57,11 +57,11 @@ export function FAQ() {
               <div
                 key={idx}
                 style={{
-                  backgroundColor: '#FCFBF8',
-                  border: '1px solid rgba(16,63,110,0.18)',
+                  backgroundColor: '#FFFFFF',
+                  border: '1px solid #DCE3E9',
                   borderRadius: '16px',
                   overflow: 'hidden',
-                  boxShadow: '0 5px 14px rgba(16, 63, 110, 0.18)',
+                  boxShadow: '0 5px 14px rgba(23, 61, 85, 0.08)',
                   width: '100%',
                 }}
               >
@@ -74,7 +74,7 @@ export function FAQ() {
                   <span
                     className="text-left"
                     style={{
-                      color: '#103F6E',
+                      color: '#173D55',
                       fontSize: '15px',
                       fontWeight: 700,
                       lineHeight: 1.35,
@@ -86,7 +86,7 @@ export function FAQ() {
                   <span
                     className="transition-transform duration-200"
                     style={{
-                      color: '#1255C8',
+                      color: '#173D55',
                       fontSize: '20px',
                       fontWeight: 700,
                       flexShrink: 0,
@@ -108,14 +108,14 @@ export function FAQ() {
                 >
                   <div
                     style={{
-                      borderTop: '1px solid rgba(16,63,110,0.18)',
-                      backgroundColor: '#EAF6FC',
+                      borderTop: '1px solid #DCE3E9',
+                      backgroundColor: '#EEF2F5',
                       padding: '19px 18px',
                     }}
                   >
                     <p
                       className="text-left"
-                      style={{ color: '#103F6E', fontSize: '15px', lineHeight: 1.6 }}
+                      style={{ color: '#293746', fontSize: '15px', lineHeight: 1.6 }}
                     >
                       {item.a}
                     </p>

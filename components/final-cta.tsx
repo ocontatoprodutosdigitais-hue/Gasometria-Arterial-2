@@ -13,14 +13,14 @@ export function FinalCta() {
   };
 
   return (
-      <section className="w-full py-12 md:py-16 lg:py-20" style={{ backgroundColor: '#103F6E' }}>
+      <section className="w-full py-12 md:py-16 lg:py-20" style={{ backgroundColor: '#DCEEF5' }}>
         <div className="mobile-content flex flex-col items-center gap-4">
           <div className="text-center space-y-3 mb-4 w-full">
-            <h2 className="w-full font-grotesk text-2xl sm:text-3xl md:text-4xl leading-tight text-pretty" style={{ color: '#FCFBF8', boxSizing: 'border-box' }}>
-              Chega de Travar na Hora de estudar Anatomia Dental
+            <h2 className="w-full font-grotesk text-2xl sm:text-3xl md:text-4xl leading-tight text-pretty" style={{ color: '#173D55', boxSizing: 'border-box' }}>
+              Chega de Travar na Hora de Estudar Gasometria Arterial
             </h2>
-            <p className="text-sm sm:text-base md:text-lg max-w-2xl" style={{ color: 'rgba(252,251,248,0.78)' }}>
-              Tenha a anatomia dental organizada de forma visual para consultar, comparar e revisar sempre que precisar
+            <p className="text-sm sm:text-base md:text-lg max-w-2xl" style={{ color: '#526176' }}>
+              Tenha a gasometria arterial organizada de forma visual para relacionar os parâmetros, acompanhar a interpretação e revisar sempre que precisar.
             </p>
           </div>
 
@@ -51,7 +51,7 @@ export function FinalCta() {
         >
           QUERO ACESSAR O GUIA VISUAL
         </button>
-        <p className="text-xs sm:text-sm text-center" style={{ color: 'rgba(252,251,248,0.7)' }}>
+        <p className="text-xs sm:text-sm text-center" style={{ color: '#526176' }}>
           
         </p>
       </div>

@@ -15,25 +15,25 @@ const anton = Anton({
 })
 
 export const metadata: Metadata = {
-  title: 'Guia Visual de Anatomia Dental | Coleção Visual de Dentes e Identificação',
+  title: 'Guia Visual de Gasometria Arterial | Interpretação em 60 Páginas',
   description:
-    'Uma coleção visual de Anatomia Dental com 6 volumes e 140 páginas: dentes, vistas anatômicas, comparações e identificação de incisivos, caninos, pré-molares e molares. Acesso imediato.',
+    'Guia digital em PDF com 60 páginas sobre gasometria arterial: parâmetros, equilíbrio ácido-base, distúrbios, compensação, oxigenação e 14 casos comentados.',
   generator: 'v0.app',
 
   openGraph: {
-    title: 'Guia Visual de Anatomia Dental | Coleção Visual de Dentes e Identificação',
+    title: 'Guia Visual de Gasometria Arterial | Interpretação em 60 Páginas',
     description:
-      'Dentes, vistas anatômicas, comparações e diferenças entre incisivos, caninos, pré-molares e molares organizados visualmente para estudar com clareza e revisar antes da prova. Acesso imediato e 7 dias de garantia.',
+      'Fluxogramas, explicações visuais e casos comentados para relacionar os parâmetros e acompanhar a interpretação da gasometria arterial. 7 dias de garantia.',
     type: 'website',
     locale: 'pt_BR',
-    siteName: 'Guia Visual de Anatomia Dental',
+    siteName: 'Guia Visual de Gasometria Arterial',
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Guia Visual de Anatomia Dental',
+    title: 'Guia Visual de Gasometria Arterial',
     description:
-      'Coleção visual de Anatomia Dental para reconhecer, comparar e diferenciar os dentes. Acesso imediato e 7 dias de garantia.',
+      'Guia visual em PDF para estudar e revisar a interpretação da gasometria arterial. 7 dias de garantia.',
   },
 
   icons: {

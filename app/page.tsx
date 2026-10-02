@@ -15,58 +15,57 @@ import { FAQ } from '@/components/faq';
 import { FinalCta } from '@/components/final-cta';
 import { Footer } from '@/components/footer';
 
-// Páginas internas reais da coleção do Guia Visual de Anatomia Dental
 const carrossel1 = [
-  { image: '/images/dental/v1-quadrantes.webp', title: 'Quadrantes Dentários', tag: 'Vol. 1 · Fundamentos' },
-  { image: '/images/dental/v1-numeracao-permanentes.webp', title: 'Numeração dos Dentes Permanentes', tag: 'Vol. 1 · Fundamentos' },
-  { image: '/images/dental/v1-numeracao-deciduos.webp', title: 'Numeração dos Dentes Decíduos', tag: 'Vol. 1 · Fundamentos' },
-  { image: '/images/dental/v1-mesial-distal.webp', title: 'Mesial × Distal', tag: 'Vol. 1 · Fundamentos' },
-  { image: '/images/dental/v1-coroa-colo-raiz.webp', title: 'Coroa, Colo e Raiz', tag: 'Vol. 1 · Fundamentos' },
-  { image: '/images/dental/v1-sulcos-fissuras.webp', title: 'Sulcos, Fissuras e Fossetas', tag: 'Vol. 1 · Fundamentos' },
-  { image: '/images/dental/v1-cuspides-vertentes.webp', title: 'Cúspides e Vertentes', tag: 'Vol. 1 · Fundamentos' },
-  { image: '/images/dental/v1-oclusao.webp', title: 'Oclusão: Conceitos Essenciais', tag: 'Vol. 1 · Fundamentos' },
+  { image: '/images/gaso/c1-acidose-respiratoria.webp', title: 'Acidose Respiratória', tag: 'Os Quatro Distúrbios' },
+  { image: '/images/gaso/c1-compensacao.webp', title: 'O Que É Compensação?', tag: 'Equilíbrio Ácido-Base' },
+  { image: '/images/gaso/c1-quatro-disturbios.webp', title: 'Os Quatro Distúrbios Primários', tag: 'Equilíbrio Ácido-Base' },
+  { image: '/images/gaso/c1-pulmoes-rins.webp', title: 'Pulmões e Rins', tag: 'Equilíbrio Ácido-Base' },
+  { image: '/images/gaso/c1-pao2-sao2-spo2.webp', title: 'PaO₂, SaO₂ e SpO₂', tag: 'O Exame e Seus Parâmetros' },
+  { image: '/images/gaso/c1-ph-estado.webp', title: 'pH: O Estado Ácido-Base', tag: 'O Exame e Seus Parâmetros' },
+  { image: '/images/gaso/c1-arterial-venosa.webp', title: 'Arterial e Venosa', tag: 'O Exame e Seus Parâmetros' },
+  { image: '/images/gaso/c1-hco3.webp', title: 'HCO₃⁻: O Componente Metabólico', tag: 'O Exame e Seus Parâmetros' },
 ];
 
 const carrossel2 = [
-  { image: '/images/dental/c2-incisivo-central.webp', title: 'Incisivo Central Superior', tag: 'Vol. 2 · Anteriores' },
-  { image: '/images/dental/c2-canino-inferior.webp', title: 'Canino Inferior: Vistas do Dente', tag: 'Vol. 2 · Anteriores' },
-  { image: '/images/dental/c2-premolar-superior.webp', title: '1º Pré-Molar Superior', tag: 'Vol. 3 · Pré-Molares' },
-  { image: '/images/dental/c2-premolar-oclusal.webp', title: '1º Pré-Molar: Vista Oclusal', tag: 'Vol. 3 · Pré-Molares' },
-  { image: '/images/dental/c2-resumao-premolares.webp', title: 'Resumão Visual dos Pré-Molares', tag: 'Vol. 3 · Pré-Molares' },
-  { image: '/images/dental/c2-molar-superior.webp', title: '1º Molar Superior', tag: 'Vol. 4 · Molares' },
-  { image: '/images/dental/c2-denticao-decidua.webp', title: 'Decíduos × Permanentes', tag: 'Vol. 5 · Decídua' },
-  { image: '/images/dental/c2-mesial-distal.webp', title: 'Como Encontrar Mesial e Distal', tag: 'Vol. 6 · Identificação' },
+  { image: '/images/gaso/c2-oxigenio-sangue-tecidos.webp', title: 'Oxigênio no Sangue e nos Tecidos', tag: 'Oxigenação' },
+  { image: '/images/gaso/c2-gradiente-alveolo-arterial.webp', title: 'Gradiente Alvéolo-Arterial', tag: 'Oxigenação' },
+  { image: '/images/gaso/c2-pao2-contexto.webp', title: 'PaO₂ Depende do Contexto', tag: 'Oxigenação' },
+  { image: '/images/gaso/c2-albumina-anion-gap.webp', title: 'Albumina e Ânion Gap Corrigido', tag: 'Compensação e Distúrbios Mistos' },
+  { image: '/images/gaso/c2-calcular-anion-gap.webp', title: 'Ânion Gap: Como Calcular', tag: 'Compensação e Distúrbios Mistos' },
+  { image: '/images/gaso/c2-alcalose-metabolica.webp', title: 'Alcalose Metabólica', tag: 'Os Quatro Distúrbios' },
+  { image: '/images/gaso/c2-acidose-metabolica.webp', title: 'Acidose Metabólica', tag: 'Os Quatro Distúrbios' },
+  { image: '/images/gaso/c2-alcalose-respiratoria.webp', title: 'Alcalose Respiratória', tag: 'Os Quatro Distúrbios' },
 ];
 
 export default function Page() {
   const offerRef = useRef<HTMLDivElement>(null);
   const handleCtaClick = () => offerRef.current?.scrollIntoView({ behavior: 'smooth' });
   return (
-    <main className="min-h-screen" style={{ backgroundColor: '#EAF6FC' }}>
+    <main className="min-h-screen" style={{ backgroundColor: '#FAFBFC' }}>
       <TopBar />
       <HeroSection onCtaClick={handleCtaClick} />
       <ProductCarousel
-        title="Conheça o Guia Visual de Anatomia Dental por Dentro"
-        subtitle="Veja como o conteúdo foi organizado para você bater o olho, reconhecer os dentes, comparar características e entender exatamente o que está observando."
+        title="Conheça o Guia Visual de Gasometria Arterial por Dentro"
+        subtitle="Veja como o conteúdo foi organizado para você acompanhar as etapas de interpretação, relacionar os parâmetros e entender o conjunto dos resultados."
         items={carrossel1}
-        bg="#FCFBF8"
+        bg="#FAFBFC"
       />
       <HowItWorks />
       <WhatYouGet />
       <SubjectsSection />
       <ProductCarousel
-        title="Identifique, Compare e Diferencie com Mais Clareza"
-        subtitle="Cada tipo de página ajuda você a reconhecer dentes, comparar diferenças e revisar os pontos que mais geram dúvida."
+        title="Mais Clareza para Entender. Mais Recursos para Estudar."
+        subtitle="Explicações visuais, comparações, fórmulas e casos comentados reunidos para você aprofundar o conteúdo e revisar o que ainda gera dúvida."
         flowSteps={[
-          ['Identificação Visual', 'Veja o dente em diferentes vistas e identifique suas principais características.'],
-          ['Como Reconhecer', 'Entenda quais características ajudam a reconhecer cada dente.'],
-          ['Como Saber o Lado', 'Use contornos, ângulos, cúspides e raízes para diferenciar direita e esquerda.'],
-          ['Não Confunda', 'Compare dentes parecidos lado a lado e veja exatamente o que diferencia um do outro.'],
-          ['Comparações Visuais', 'Compare superiores × inferiores, centrais × laterais, 1º × 2º, decíduos × permanentes e muito mais.'],
+          ['Fluxogramas de Interpretação', 'Saiba o que analisar primeiro e como avançar na leitura da gasometria, com uma sequência visual que mostra como conectar os dados e chegar à interpretação.'],
+          ['Explicações Visuais', 'Entenda as relações entre os parâmetros e os mecanismos dos distúrbios.'],
+          ['Comparações de Padrões', 'Observe diferenças entre alterações respiratórias, metabólicas e respostas esperadas.'],
+          ['Fórmulas e Consulta', 'Confira como fazer os cálculos e o que eles ajudam a identificar, com as fórmulas e siglas organizadas para consultar quando surgir uma dúvida.'],
+          ['Casos Comentados', 'Entenda como aplicar o conteúdo em 14 casos comentados, com explicações que mostram o que observar nos valores e por que cada caso leva àquela interpretação.'],
         ]}
         items={carrossel2}
         reverse={true}
-        bg="#FCFBF8"
+        bg="#FAFBFC"
       />
       <Testimonials />
       <BonusSection />
