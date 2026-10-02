@@ -22,7 +22,7 @@ export function HeroSection({ onCtaClick }: { onCtaClick: () => void }) {
               Guia Visual de Gasometria Arterial
             </h1>
             <p className="text-sm sm:text-base leading-relaxed text-pretty text-center max-w-md sm:max-w-lg" style={{ color: '#526176' }}>
-              Entenda como os valores se relacionam na interpretação da gasometria arterial, com fluxogramas, explicações visuais e casos comentados reunidos em um guia de 60 páginas.
+              Tenha os principais conteúdos de gasometria arterial organizados em 60 páginas, com fluxogramas e casos comentados para compreender os resultados, revisar os conceitos e consultar suas dúvidas.
             </p>
           </div>
           <div className="w-full flex justify-center py-2 sm:py-4 md:py-6 overflow-visible">
