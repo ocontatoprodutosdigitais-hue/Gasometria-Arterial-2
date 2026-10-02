@@ -4,27 +4,27 @@ import { Star } from 'lucide-react';
 
 const bonuses = [
   {
-    label: 'RECURSO 1',
-    name: '14 Casos Comentados',
+    label: 'BÔNUS 1',
+    name: 'Biblioteca Visual de Laudos Comentados',
     description:
-      'Casos fictícios com diferentes padrões ácido-base e de oxigenação, acompanhados de comentários para conferir o raciocínio.',
-    note: 'Parte das 60 páginas',
+      'Explore 20 novos exemplos de laudos, com valores destacados e explicações que mostram onde olhar e como chegar à interpretação de cada situação.',
+    price: 'R$ 17,00',
     image: '/images/dental/bonus-erupcao.webp',
   },
   {
-    label: 'RECURSO 2',
-    name: 'Roteiro de Interpretação',
+    label: 'BÔNUS 2',
+    name: 'Painéis Visuais dos Distúrbios Ácido-Base',
     description:
-      'Uma sequência de consulta para reunir contexto, parâmetros, resposta esperada, gap, oxigenação e síntese.',
-    note: 'Parte das 60 páginas',
+      'Compare os principais distúrbios lado a lado e visualize o que muda nos parâmetros, quais diferenças observar e como distinguir os padrões durante o estudo.',
+    price: 'R$ 19,90',
     image: '/images/dental/bonus-checklist.webp',
   },
   {
-    label: 'RECURSO 3',
-    name: 'Fórmulas e Revisão Final',
+    label: 'BÔNUS 3',
+    name: 'Gasometrias que Confundem — Casos Visuais Explicados',
     description:
-      'Fórmulas, siglas, erros frequentes e checklist para consultar os pontos essenciais durante o estudo.',
-    note: 'Parte das 60 páginas',
+      'Entenda situações em que os valores parecem normais ou mais de uma alteração aparece no mesmo caso, com destaques visuais que mostram o que merece atenção e por quê.',
+    price: 'R$ 24,00',
     image: '/images/dental/bonus-revisao.webp',
   },
 ];
@@ -46,13 +46,13 @@ export function BonusSection() {
         {/* Cabeçalho */}
         <div className="flex flex-col items-center text-center gap-3 md:gap-4 mb-10 md:mb-14">
           <span className="font-grotesk text-xs sm:text-sm font-bold uppercase tracking-[0.2em]" style={{ color: '#22C55E' }}>
-            Recursos Inclusos
+            Bônus Inclusos
           </span>
           <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-balance" style={{ color: '#173D55' }}>
-            Além das Explicações, Você Conta com 3 Recursos de Estudo
+            Além do Guia, Você Recebe Mais 3 Bônus para Complementar Seu Estudo
           </h2>
           <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#526176' }}>
-            Recursos integrados ao próprio guia para praticar, revisar e acompanhar a interpretação.
+            Recursos extras para complementar seus estudos e reforçar os principais conteúdos de gasometria arterial.
           </p>
         </div>
 
@@ -81,7 +81,7 @@ export function BonusSection() {
               <div className="mt-4 flex justify-center">
                 <img
                   src={bonus.image || '/placeholder.svg'}
-                  alt={`Recurso do guia: ${bonus.name}`}
+                  alt={`Bônus: ${bonus.name}`}
                   className="w-full max-w-[320px] h-auto object-contain drop-shadow-xl"
                   loading="lazy"
                 />
@@ -105,13 +105,14 @@ export function BonusSection() {
               {/* Observação + selo */}
               <div className="mt-5 flex items-center justify-between gap-3 border-t pt-4" style={{ borderColor: '#DCE3E9' }}>
                 <span className="text-sm" style={{ color: '#526176' }}>
-                  {bonus.note}
+                  De <s>{bonus.price}</s>
                 </span>
                 <span
-                  className="rounded-full px-3 py-1.5 text-xs font-bold uppercase tracking-wide"
+                  className="flex flex-col items-center rounded-full px-4 py-1.5 text-xs font-bold uppercase leading-tight tracking-wide"
                   style={{ backgroundColor: '#22C55E', color: '#FFFFFF' }}
                 >
-                  Incluso no guia
+                  <span>Hoje</span>
+                  <span>Grátis</span>
                 </span>
               </div>
             </div>
