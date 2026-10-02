@@ -27,14 +27,14 @@ const carrossel1 = [
 ];
 
 const carrossel2 = [
-  { image: '/images/dental/c2-incisivo-central.webp', title: 'Compensação na Acidose Metabólica', tag: 'Compensação e Distúrbios Mistos' },
-  { image: '/images/dental/c2-canino-inferior.webp', title: 'Como Calcular o Gap Aniônico', tag: 'Compensação e Distúrbios Mistos' },
-  { image: '/images/dental/c2-premolar-superior.webp', title: 'Albumina e Gap Corrigido', tag: 'Compensação e Distúrbios Mistos' },
-  { image: '/images/dental/c2-premolar-oclusal.webp', title: 'Como Reconhecer Distúrbios Mistos', tag: 'Compensação e Distúrbios Mistos' },
-  { image: '/images/dental/c2-resumao-premolares.webp', title: 'PaO₂ Depende do Contexto', tag: 'Oxigenação' },
-  { image: '/images/dental/c2-molar-superior.webp', title: 'Relação PaO₂/FiO₂', tag: 'Oxigenação' },
-  { image: '/images/dental/c2-denticao-decidua.webp', title: 'Roteiro de Interpretação', tag: 'Casos e Revisão Final' },
-  { image: '/images/dental/c2-mesial-distal.webp', title: 'Fórmulas e Siglas', tag: 'Casos e Revisão Final' },
+  { image: '/images/gaso/c2-oxigenio-sangue-tecidos.webp', title: 'Oxigênio no Sangue e nos Tecidos', tag: 'Oxigenação' },
+  { image: '/images/gaso/c2-gradiente-alveolo-arterial.webp', title: 'Gradiente Alvéolo-Arterial', tag: 'Oxigenação' },
+  { image: '/images/gaso/c2-pao2-contexto.webp', title: 'PaO₂ Depende do Contexto', tag: 'Oxigenação' },
+  { image: '/images/gaso/c2-albumina-anion-gap.webp', title: 'Albumina e Ânion Gap Corrigido', tag: 'Compensação e Distúrbios Mistos' },
+  { image: '/images/gaso/c2-calcular-anion-gap.webp', title: 'Ânion Gap: Como Calcular', tag: 'Compensação e Distúrbios Mistos' },
+  { image: '/images/gaso/c2-alcalose-metabolica.webp', title: 'Alcalose Metabólica', tag: 'Os Quatro Distúrbios' },
+  { image: '/images/gaso/c2-acidose-metabolica.webp', title: 'Acidose Metabólica', tag: 'Os Quatro Distúrbios' },
+  { image: '/images/gaso/c2-alcalose-respiratoria.webp', title: 'Alcalose Respiratória', tag: 'Os Quatro Distúrbios' },
 ];
 
 export default function Page() {
