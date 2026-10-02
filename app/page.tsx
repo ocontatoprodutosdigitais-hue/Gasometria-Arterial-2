@@ -15,16 +15,15 @@ import { FAQ } from '@/components/faq';
 import { FinalCta } from '@/components/final-cta';
 import { Footer } from '@/components/footer';
 
-// Imagens atuais mantidas provisoriamente; serão trocadas por páginas do guia de gasometria.
 const carrossel1 = [
-  { image: '/images/dental/v1-quadrantes.webp', title: 'Visão Geral da Interpretação', tag: 'Fundamentos e Parâmetros' },
-  { image: '/images/dental/v1-numeracao-permanentes.webp', title: 'Como Ler um Laudo', tag: 'Fundamentos e Parâmetros' },
-  { image: '/images/dental/v1-numeracao-deciduos.webp', title: 'pH: O Estado Ácido-Base', tag: 'Fundamentos e Parâmetros' },
-  { image: '/images/dental/v1-mesial-distal.webp', title: 'PaCO₂: O Componente Respiratório', tag: 'Fundamentos e Parâmetros' },
-  { image: '/images/dental/v1-coroa-colo-raiz.webp', title: 'HCO₃⁻: O Componente Metabólico', tag: 'Fundamentos e Parâmetros' },
-  { image: '/images/dental/v1-sulcos-fissuras.webp', title: 'Os Quatro Distúrbios Primários', tag: 'Equilíbrio Ácido-Base' },
-  { image: '/images/dental/v1-cuspides-vertentes.webp', title: 'Verifique a Compensação', tag: 'Sequência e Distúrbios' },
-  { image: '/images/dental/v1-oclusao.webp', title: 'Casos Comentados', tag: 'Casos e Revisão Final' },
+  { image: '/images/gaso/c1-acidose-respiratoria.webp', title: 'Acidose Respiratória', tag: 'Os Quatro Distúrbios' },
+  { image: '/images/gaso/c1-compensacao.webp', title: 'O Que É Compensação?', tag: 'Equilíbrio Ácido-Base' },
+  { image: '/images/gaso/c1-quatro-disturbios.webp', title: 'Os Quatro Distúrbios Primários', tag: 'Equilíbrio Ácido-Base' },
+  { image: '/images/gaso/c1-pulmoes-rins.webp', title: 'Pulmões e Rins', tag: 'Equilíbrio Ácido-Base' },
+  { image: '/images/gaso/c1-pao2-sao2-spo2.webp', title: 'PaO₂, SaO₂ e SpO₂', tag: 'O Exame e Seus Parâmetros' },
+  { image: '/images/gaso/c1-ph-estado.webp', title: 'pH: O Estado Ácido-Base', tag: 'O Exame e Seus Parâmetros' },
+  { image: '/images/gaso/c1-arterial-venosa.webp', title: 'Arterial e Venosa', tag: 'O Exame e Seus Parâmetros' },
+  { image: '/images/gaso/c1-hco3.webp', title: 'HCO₃⁻: O Componente Metabólico', tag: 'O Exame e Seus Parâmetros' },
 ];
 
 const carrossel2 = [
