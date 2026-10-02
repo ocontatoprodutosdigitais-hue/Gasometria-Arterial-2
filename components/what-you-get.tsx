@@ -1,6 +1,6 @@
 export function WhatYouGet() {
   const collections = [
-    ['14', 'FUNDAMENTOS E PARÂMETROS', 'Conheça a proposta do guia, o roteiro geral de interpretação, as diferenças entre amostras, a leitura do laudo e os principais parâmetros da gasometria.', 'Entender o exame e o significado dos seus dados.'],
+    ['14', 'FUNDAMENTOS E PARÂMETROS', 'Entenda o que a gasometria avalia, como ler um laudo e o significado dos principais parâmetros. Conheça também as diferenças entre amostras e os cuidados que podem influenciar a análise.', 'Saber o que observar antes de começar a interpretação.'],
     ['6', 'EQUILÍBRIO ÁCIDO-BASE', 'Estude ácidos, bases, tampões, o papel dos pulmões e dos rins, a relação entre pH, CO₂ e bicarbonato e os quatro distúrbios primários.', 'Compreender a lógica por trás das alterações.'],
     ['14', 'SEQUÊNCIA E DISTÚRBIOS', 'Acompanhe a ordem de leitura da gasometria e aprofunde os mecanismos e a interpretação das acidoses e alcaloses respiratórias e metabólicas.', 'Organizar o raciocínio e reconhecer os principais padrões.'],
     ['9', 'COMPENSAÇÃO E DISTÚRBIOS MISTOS', 'Explore a resposta esperada, a fórmula de Winter, o gap aniônico, a correção pela albumina e as pistas para reconhecer alterações associadas.', 'Comparar os resultados e investigar distúrbios mistos.'],
