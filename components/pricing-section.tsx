@@ -132,7 +132,7 @@ export function PricingSection() {
             {/* Área de preço */}
             <div className="text-center">
               <p className="text-sm" style={{ color: '#526176' }}>
-                Guia completo em PDF
+                
               </p>
               <p className="mt-3 font-grotesk text-xs sm:text-sm uppercase tracking-[0.16em]" style={{ color: '#173D55' }}>
                 Hoje por apenas
