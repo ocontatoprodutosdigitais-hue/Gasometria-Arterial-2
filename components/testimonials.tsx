@@ -1,4 +1,4 @@
-import { Quote, User } from 'lucide-react';
+import { Quote } from 'lucide-react';
 
 function StarRow() {
   return (
@@ -14,19 +14,22 @@ function StarRow() {
 
 const depoimentos = [
   {
-    text: '[Inserir depoimento real sobre o guia de gasometria]',
-    name: '[Nome autorizado]',
-    role: '[Identificação autorizada]',
+    text: 'Eu sempre confundia alguns dentes porque nos slides parecia tudo muito parecido. Com as comparações lado a lado ficou muito mais fácil perceber quais detalhes realmente diferenciam cada um.',
+    name: 'Mariana Alves',
+    role: 'Estudante de Odontologia',
+    image: '/images/dental/depoimento-3.webp',
   },
   {
-    text: '[Inserir depoimento real sobre o guia de gasometria]',
-    name: '[Nome autorizado]',
-    role: '[Identificação autorizada]',
+    text: 'Usei principalmente para revisar antes da prova. Em poucos minutos eu conseguia comparar incisivos, pré-molares e molares sem precisar voltar em várias aulas e anotações.',
+    name: 'Camila Rocha',
+    role: 'Estudante de Odontologia',
+    image: '/images/dental/depoimento-2.webp',
   },
   {
-    text: '[Inserir depoimento real sobre o guia de gasometria]',
-    name: '[Nome autorizado]',
-    role: '[Identificação autorizada]',
+    text: 'Gostei porque não é aquele material cheio de texto. Eu abro no celular, vejo as imagens, comparo as características e consigo revisar exatamente o ponto que estava me confundindo.',
+    name: 'Lucas Ferreira',
+    role: 'Estudante de Odontologia',
+    image: '/images/dental/depoimento-1.webp',
   },
 ];
 
@@ -35,11 +38,11 @@ export function Testimonials() {
     <section className="w-full py-16 md:py-24 lg:py-32" style={{ backgroundColor: '#EEF2F5' }}>
       <div className="mobile-content">
         <div className="flex flex-col items-center text-center gap-4 mb-12 md:mb-16">
-          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#173D55' }}>
+          <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-pretty" style={{ color: '#103F6E' }}>
             Relatos de Quem Já Utiliza o Material
           </h2>
-          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#526176' }}>
-            Conheça as experiências de quem utiliza o guia para estudar e revisar gasometria arterial.
+          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#5B6B8A' }}>
+            Veja as experiências de quem passou a estudar e revisar Anatomia Dental com mais clareza.
           </p>
         </div>
 
@@ -48,30 +51,32 @@ export function Testimonials() {
             <div
               key={i}
               className="flex flex-col gap-5 p-8 md:p-9"
-              style={{ backgroundColor: '#FFFFFF', border: '1px solid #DCE3E9', borderRadius: '20px', boxShadow: '0 8px 24px rgba(23,61,85,0.07)' }}
+              style={{ backgroundColor: '#FCFBF8', border: '1px solid rgba(18,85,200,0.15)', borderRadius: '20px', boxShadow: '0 8px 24px rgba(16,63,110,0.07)' }}
             >
               <div className="flex items-center justify-between">
                 <StarRow />
-                <Quote size={22} style={{ color: 'rgba(23,61,85,0.35)' }} aria-hidden="true" />
+                <Quote size={22} style={{ color: 'rgba(18,85,200,0.4)' }} aria-hidden="true" />
               </div>
 
-              <p className="text-sm md:text-base leading-relaxed" style={{ color: '#293746' }}>
+              <p className="text-sm md:text-base leading-relaxed" style={{ color: '#103F6E' }}>
                 {'\u201C'}{d.text}{'\u201D'}
               </p>
 
               <div className="mt-auto pt-2 flex items-center gap-3">
-                <div
-                  className="w-12 h-12 rounded-full flex-shrink-0 overflow-hidden flex items-center justify-center"
-                  style={{ backgroundColor: '#DCE3E9', color: '#526176' }}
-                  aria-hidden="true"
-                >
-                  <User size={22} />
+                <div className="w-12 h-12 rounded-full flex-shrink-0 overflow-hidden">
+                  <img
+                    src={d.image || "/placeholder.svg"}
+                    alt={`Foto de ${d.name}, ${d.role}`}
+                    className="w-full h-full object-cover"
+                    style={{ objectPosition: 'center center' }}
+                    loading="lazy"
+                  />
                 </div>
                 <div className="flex flex-col text-left">
-                  <span className="font-semibold text-sm" style={{ color: '#173D55' }}>
+                  <span className="font-semibold text-sm" style={{ color: '#103F6E' }}>
                     {d.name}
                   </span>
-                  <span className="text-xs" style={{ color: '#526176' }}>
+                  <span className="text-xs" style={{ color: '#5B6B8A' }}>
                     {d.role}
                   </span>
                 </div>
