@@ -5,7 +5,7 @@ export function WhatYouGet() {
     ['14', 'SEQUÊNCIA E DISTÚRBIOS', 'Acompanhe a ordem de leitura da gasometria e aprofunde os mecanismos e a interpretação das acidoses e alcaloses respiratórias e metabólicas.', 'Organizar o raciocínio e reconhecer os principais padrões.'],
     ['9', 'COMPENSAÇÃO E DISTÚRBIOS MISTOS', 'Explore a resposta esperada, a fórmula de Winter, o gap aniônico, a correção pela albumina e as pistas para reconhecer alterações associadas.', 'Comparar os resultados e investigar distúrbios mistos.'],
     ['6', 'OXIGENAÇÃO', 'Relacione PaO₂ e FiO₂, acompanhe a relação P/F, o gradiente alvéolo-arterial, os mecanismos de hipoxemia e o transporte de oxigênio.', 'Interpretar a oxigenação considerando o contexto.'],
-    ['11', 'CASOS E REVISÃO FINAL', 'Pratique com 14 casos comentados em sete páginas e revise os erros frequentes, o roteiro de interpretação e as fórmulas e siglas.', 'Aplicar o raciocínio e revisar o conteúdo.'],
+    ['11', 'CASOS E REVISÃO FINAL', 'Entenda o caminho de cada interpretação em 14 casos comentados e tenha os principais pontos do estudo reunidos para revisar quando precisar.', 'Praticar o que estudou e identificar os pontos que precisa revisar.'],
   ];
 
   return (
