@@ -52,8 +52,8 @@ export function PricingSection() {
             className="relative flex w-full flex-col rounded-[22px] p-6 pt-10 sm:p-8 sm:pt-11"
             style={{
               backgroundColor: '#DCEEF5',
-              border: '2px solid #DCE3E9',
-              boxShadow: '0 24px 55px rgba(23, 61, 85, 0.14)',
+              border: '1px solid #A9C9DA',
+              boxShadow: '0 8px 24px rgba(23, 61, 85, 0.12)',
             }}
           >
             {/* Badge OFERTA ESPECIAL */}
