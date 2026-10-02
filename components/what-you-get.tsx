@@ -16,7 +16,7 @@ export function WhatYouGet() {
             Gasometria Arterial Organizada em 6 Blocos Visuais
           </h2>
           <p className="max-w-2xl text-sm leading-relaxed sm:text-base md:text-lg" style={{ color: '#526176' }}>
-            Cada bloco reúne uma parte importante da gasometria arterial, organizada visualmente para facilitar a compreensão, a consulta e a revisão durante o estudo.
+            Encontre os fundamentos, as alterações ácido-base, a oxigenação e os casos comentados separados por assunto, para estudar em sequência ou ir direto ao ponto que precisa revisar.
           </p>
         </div>
 
