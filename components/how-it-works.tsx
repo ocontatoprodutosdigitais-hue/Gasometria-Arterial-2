@@ -13,7 +13,7 @@ export function HowItWorks() {
             Estudar Gasometria Arterial Pode Ser Muito Mais Visual
           </h2>
           <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#526176' }}>
-            Em quatro etapas, você observa os resultados, relaciona os componentes, acompanha a interpretação e pratica com casos comentados.
+            Em quatro etapas, você aprende a interpretar a gasometria sem depender apenas da memorização: entenda os valores, reconheça as alterações e pratique o raciocínio com casos comentados.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 items-stretch">
