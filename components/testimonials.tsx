@@ -26,9 +26,9 @@ const depoimentos = [
     image: '/images/dental/depoimento-2.webp',
   },
   {
-    text: 'Gostei porque não é aquele material cheio de texto. Eu abro no celular, vejo as imagens, comparo as características e consigo revisar exatamente o ponto que estava me confundindo.',
+    text: 'Gasometria era um assunto que eu sempre deixava pra depois porque achava complicado. Com esse material ficou mais fácil acompanhar as explicações. Tenho usado principalmente pra revisar depois das aulas.',
     name: 'Lucas Ferreira',
-    role: 'Estudante de Odontologia',
+    role: 'Estudante de Fisioterapia',
     image: '/images/dental/depoimento-1.webp',
   },
 ];
