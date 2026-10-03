@@ -28,7 +28,7 @@ export function FAQ() {
     },
     {
       q: 'Posso imprimir?',
-      a: 'Sim. Você pode imprimir o PDF para uso pessoal e organizar suas revisões da forma que preferir.',
+      a: 'Sim. Você pode imprimir para uso pessoal e organizar suas revisões da forma que preferir.',
     },
     {
       q: 'Como receberei o acesso e por quanto tempo poderei usar?',
