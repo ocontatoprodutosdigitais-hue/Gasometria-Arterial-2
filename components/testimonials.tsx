@@ -42,7 +42,7 @@ export function Testimonials() {
             Relatos de Quem Já Utiliza o Material
           </h2>
           <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#5B6B8A' }}>
-            Veja as experiências de quem passou a estudar e revisar Anatomia Dental com mais clareza.
+            Veja como o Guia Visual de Gasometria Arterial tem ajudado nos estudos de quem já utiliza o material.
           </p>
         </div>
 
