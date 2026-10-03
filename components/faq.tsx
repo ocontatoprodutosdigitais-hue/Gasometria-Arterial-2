@@ -12,7 +12,7 @@ export function FAQ() {
     },
     {
       q: 'Quais assuntos aparecem no material?',
-      a: 'O guia aborda os parâmetros do laudo, equilíbrio ácido-base, sequência de interpretação, distúrbios respiratórios e metabólicos, compensação, gap aniônico e oxigenação. Também inclui 14 casos comentados e revisão final, dentro das 60 páginas.',
+      a: 'O guia aborda os parâmetros do laudo, equilíbrio ácido-base, sequência de interpretação, distúrbios respiratórios e metabólicos, compensação, gap aniônico e oxigenação.',
     },
     {
       q: 'O material substitui livros e aulas?',
