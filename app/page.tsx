@@ -45,7 +45,7 @@ export default function Page() {
       <TopBar />
       <HeroSection onCtaClick={handleCtaClick} />
       <ProductCarousel
-        title="Conheça o Guia Visual de Gasometria Arterial por Dentro"
+        title="CONHEÇA O MATERIAL POR DENTRO"
         subtitle="Veja como o conteúdo foi organizado para você acompanhar as etapas de interpretação, relacionar os parâmetros e entender o conjunto dos resultados."
         items={carrossel1}
         bg="#FAFBFC"
@@ -54,8 +54,8 @@ export default function Page() {
       <WhatYouGet />
       <SubjectsSection />
       <ProductCarousel
-        title="Mais Clareza para Entender. Mais Recursos para Estudar."
-        subtitle="Explicações visuais, comparações, fórmulas e casos comentados reunidos para você aprofundar o conteúdo e revisar o que ainda gera dúvida."
+title="Uma Forma Visual de Compreender a Gasometria Arterial"
+  subtitle="Fluxogramas mostram o caminho, comparações destacam as diferenças e casos comentados ajudam você a entender como tudo se conecta."
         flowSteps={[
           ['Fluxogramas de Interpretação', 'Saiba o que analisar primeiro e como avançar na leitura da gasometria, com uma sequência visual que mostra como conectar os dados e chegar à interpretação.'],
           ['Explicações Visuais', 'Entenda as relações entre os parâmetros e os mecanismos dos distúrbios.'],
