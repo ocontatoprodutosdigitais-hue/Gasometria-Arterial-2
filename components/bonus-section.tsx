@@ -49,7 +49,7 @@ export function BonusSection() {
             
           </span>
           <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-balance" style={{ color: '#173D55' }}>
-            Além do material completo, Você Recebe Mais 3 Bônus para Complementar Seu Estudo
+            Além do Guia Completo, Você Recebe Mais 3 Bônus
           </h2>
           <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#526176' }}>
             Recursos extras para complementar seus estudos e reforçar os principais conteúdos de gasometria arterial.
