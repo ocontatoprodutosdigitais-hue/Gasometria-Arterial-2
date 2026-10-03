@@ -32,7 +32,7 @@ export function FAQ() {
     },
     {
       q: 'Como receberei o acesso e por quanto tempo poderei usar?',
-      a: 'As instruções de acesso serão disponibilizadas após a confirmação do pagamento, pelo canal informado no checkout. Depois de baixar o PDF, você poderá guardar o arquivo e consultá-lo quando precisar. O pagamento é único, sem mensalidade.',
+      a: 'Após a confirmação do pagamento, você receberá o acesso pelo e-mail e pelo WhatsApp informados na compra. O acesso ao guia e aos três bônus é vitalício, para estudar, revisar e consultar sempre que precisar. O pagamento é único, sem mensalidade.',
     },
     {
       q: 'Como funciona a garantia?',
