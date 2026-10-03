@@ -14,15 +14,15 @@ function StarRow() {
 
 const depoimentos = [
   {
-    text: 'Eu sempre confundia alguns dentes porque nos slides parecia tudo muito parecido. Com as comparações lado a lado ficou muito mais fácil perceber quais detalhes realmente diferenciam cada um.',
+    text: 'Eu estudava gasometria e achava que tinha entendido, mas quando ia fazer uma questão acabava me confundindo. Gostei porque as explicações são bem visuais e consigo voltar na parte que não entendi sem precisar reler tudo.',
     name: 'Mariana Alves',
-    role: 'Estudante de Odontologia',
+    role: 'Estudante de Enfermagem',
     image: '/images/dental/depoimento-3.webp',
   },
   {
-    text: 'Usei principalmente para revisar antes da prova. Em poucos minutos eu conseguia comparar incisivos, pré-molares e molares sem precisar voltar em várias aulas e anotações.',
+    text: 'Gostei muito da organização e das imagens. Antes eu ficava procurando explicação em vários lugares, agora consigo estudar e revisar pelo mesmo material. Os exemplos também ajudam bastante.',
     name: 'Camila Rocha',
-    role: 'Estudante de Odontologia',
+    role: 'Estudante de Medicina',
     image: '/images/dental/depoimento-2.webp',
   },
   {
