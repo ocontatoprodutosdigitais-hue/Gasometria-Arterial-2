@@ -4,7 +4,7 @@ import { Check, Star } from 'lucide-react';
 
 /* ===== Constantes de preço e checkout (fáceis de editar) ===== */
 const PRICE = 'R$ 24,90';
-const CHECKOUT_URL = 'https://pay.cakto.com.br/t2jycye_1130420';
+const CHECKOUT_URL = 'https://pay.cakto.com.br/rxuk7fh_1169231';
 
 /* O que está incluído na oferta (destaque principal do pacote) */
 const highlightFeature: [string, string] = ['60', 'páginas visuais de Gasometria Arterial'];
