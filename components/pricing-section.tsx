@@ -131,10 +131,13 @@ export function PricingSection() {
 
             {/* Área de preço */}
             <div className="text-center">
-              <p className="text-sm" style={{ color: '#526176' }}>
-                
+              <p className="font-grotesk text-xs sm:text-sm uppercase tracking-[0.16em]" style={{ color: '#526176' }}>
+                Valor total:{' '}
+                <s className="decoration-2" style={{ textDecorationColor: '#EF4444' }}>
+                  R$ 85,80
+                </s>
               </p>
-              <p className="mt-3 font-grotesk text-xs sm:text-sm uppercase tracking-[0.16em]" style={{ color: '#173D55' }}>
+              <p className="mt-2 font-grotesk text-xs sm:text-sm uppercase tracking-[0.16em]" style={{ color: '#173D55' }}>
                 Hoje por apenas
               </p>
               <p className="mt-1 font-grotesk text-6xl sm:text-7xl leading-none" style={{ color: '#22C55E' }}>
