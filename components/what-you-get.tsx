@@ -13,7 +13,7 @@ export function WhatYouGet() {
       <div className="mobile-content">
         <div className="mx-auto mb-10 flex max-w-3xl flex-col items-center gap-4 text-center md:mb-12">
           <h2 className="font-grotesk text-3xl leading-tight text-pretty sm:text-4xl md:text-5xl" style={{ color: '#173D55' }}>
-            Gasometria Arterial Organizada em 6 Blocos Visuais
+            Material completo Organizado em 6 Blocos Visuais
           </h2>
           <p className="max-w-2xl text-sm leading-relaxed sm:text-base md:text-lg" style={{ color: '#526176' }}>
             Encontre os fundamentos, as alterações ácido-base, a oxigenação e os casos comentados separados por assunto, para estudar em sequência ou ir direto ao ponto que precisa revisar.
