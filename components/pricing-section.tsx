@@ -20,9 +20,9 @@ const includedFeatures: [string, string][] = [
 ];
 
 const bonuses = [
-  'Recurso #1 — 14 Casos Comentados',
-  'Recurso #2 — Roteiro de Interpretação',
-  'Recurso #3 — Fórmulas e Revisão Final',
+  'Bônus #1 — Biblioteca Visual de Laudos Comentados',
+  'Bônus #2 — Painéis Visuais dos Distúrbios Ácido-Base',
+  'Bônus #3 — Gasometrias que Confundem',
 ];
 
 function goToCheckout(url: string) {
@@ -131,10 +131,13 @@ export function PricingSection() {
 
             {/* Área de preço */}
             <div className="text-center">
-              <p className="text-sm" style={{ color: '#526176' }}>
-                
+              <p className="font-grotesk text-xs sm:text-sm uppercase tracking-[0.16em]" style={{ color: '#526176' }}>
+                Valor total:{' '}
+                <s className="decoration-2" style={{ textDecorationColor: '#EF4444' }}>
+                  R$ 85,80
+                </s>
               </p>
-              <p className="mt-3 font-grotesk text-xs sm:text-sm uppercase tracking-[0.16em]" style={{ color: '#173D55' }}>
+              <p className="mt-2 font-grotesk text-xs sm:text-sm uppercase tracking-[0.16em]" style={{ color: '#173D55' }}>
                 Hoje por apenas
               </p>
               <p className="mt-1 font-grotesk text-6xl sm:text-7xl leading-none" style={{ color: '#22C55E' }}>

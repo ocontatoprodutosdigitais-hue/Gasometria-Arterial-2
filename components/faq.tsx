@@ -12,31 +12,31 @@ export function FAQ() {
     },
     {
       q: 'Quais assuntos aparecem no material?',
-      a: 'O guia aborda os parâmetros do laudo, equilíbrio ácido-base, sequência de interpretação, distúrbios respiratórios e metabólicos, compensação, gap aniônico e oxigenação. Também inclui 14 casos comentados e revisão final, dentro das 60 páginas.',
+      a: 'O guia aborda os parâmetros do laudo, equilíbrio ácido-base, sequência de interpretação, distúrbios respiratórios e metabólicos, compensação, gap aniônico e oxigenação.',
     },
     {
       q: 'O material substitui livros e aulas?',
-      a: 'O guia funciona como material complementar de estudo e consulta. Não substitui livros, aulas, protocolos ou avaliação profissional. Os casos apresentados são fictícios e servem para praticar o raciocínio.',
+      a: 'O guia funciona como material complementar de estudo e consulta. Não substitui livros, aulas, protocolos ou avaliação profissional.',
     },
     {
       q: 'O material é físico ou digital?',
-      a: 'O material é digital, em PDF. Você não receberá um produto físico pelos Correios.',
+      a: 'O material é digital. Você recebe o Guia Visual de Gasometria Arterial e os três bônus organizados para estudar, revisar e consultar sempre que precisar.',
     },
     {
       q: 'Posso acessar pelo celular?',
-      a: 'Sim. O PDF pode ser aberto no celular, tablet ou computador. Você pode ampliar as páginas para visualizar os detalhes.',
+      a: 'Sim! Você pode estudar e consultar o material completo diretamente pelo celular, com a praticidade de ter o conteúdo à mão quando precisar. Também é possível acessar pelo tablet ou computador.',
     },
     {
       q: 'Posso imprimir?',
-      a: 'Sim. Você pode imprimir o PDF para uso pessoal e organizar suas revisões da forma que preferir.',
+      a: 'Sim. Você pode imprimir para uso pessoal e organizar suas revisões da forma que preferir.',
     },
     {
       q: 'Como receberei o acesso e por quanto tempo poderei usar?',
-      a: 'As instruções de acesso serão disponibilizadas após a confirmação do pagamento, pelo canal informado no checkout. Depois de baixar o PDF, você poderá guardar o arquivo e consultá-lo quando precisar. O pagamento é único, sem mensalidade.',
+      a: 'Após a confirmação do pagamento, você receberá o acesso pelo e-mail e pelo WhatsApp informados na compra. O acesso ao guia e aos três bônus é vitalício, para estudar, revisar e consultar sempre que precisar. O pagamento é único, sem mensalidade.',
     },
     {
       q: 'Como funciona a garantia?',
-      a: 'Você tem 7 dias para conhecer o material. Caso ele não atenda às suas expectativas, poderá solicitar o reembolso pelo canal de atendimento informado na compra, dentro desse prazo.',
+      a: 'Você tem 7 dias para conhecer o material. Caso ele não atenda às suas expectativas, poderá solicitar o reembolso dentro desse período.',
     },
   ];
 

@@ -20,7 +20,7 @@ export function FinalCta() {
               Chega de Travar na Hora de Estudar Gasometria Arterial
             </h2>
             <p className="text-sm sm:text-base md:text-lg max-w-2xl" style={{ color: '#526176' }}>
-              Tenha a gasometria arterial organizada de forma visual para relacionar os parâmetros, acompanhar a interpretação e revisar sempre que precisar.
+              Tenha 60 páginas de conteúdo visual e 3 bônus para estudar com explicações ilustradas, comparar diferentes alterações e praticar com casos comentados.
             </p>
           </div>
 

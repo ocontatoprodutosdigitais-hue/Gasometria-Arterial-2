@@ -14,21 +14,21 @@ function StarRow() {
 
 const depoimentos = [
   {
-    text: 'Eu sempre confundia alguns dentes porque nos slides parecia tudo muito parecido. Com as comparações lado a lado ficou muito mais fácil perceber quais detalhes realmente diferenciam cada um.',
+    text: 'Eu estudava gasometria e achava que tinha entendido, mas quando ia fazer uma questão acabava me confundindo. Gostei porque as explicações são bem visuais e consigo voltar na parte que não entendi sem precisar reler tudo.',
     name: 'Mariana Alves',
-    role: 'Estudante de Odontologia',
+    role: 'Estudante de Enfermagem',
     image: '/images/dental/depoimento-3.webp',
   },
   {
-    text: 'Usei principalmente para revisar antes da prova. Em poucos minutos eu conseguia comparar incisivos, pré-molares e molares sem precisar voltar em várias aulas e anotações.',
+    text: 'Gostei muito da organização e das imagens. Antes eu ficava procurando explicação em vários lugares, agora consigo estudar e revisar pelo mesmo material. Os exemplos também ajudam bastante.',
     name: 'Camila Rocha',
-    role: 'Estudante de Odontologia',
+    role: 'Estudante de Medicina',
     image: '/images/dental/depoimento-2.webp',
   },
   {
-    text: 'Gostei porque não é aquele material cheio de texto. Eu abro no celular, vejo as imagens, comparo as características e consigo revisar exatamente o ponto que estava me confundindo.',
+    text: 'Gasometria era um assunto que eu sempre deixava pra depois porque achava complicado. Com esse material ficou mais fácil acompanhar as explicações. Tenho usado principalmente pra revisar depois das aulas.',
     name: 'Lucas Ferreira',
-    role: 'Estudante de Odontologia',
+    role: 'Estudante de Fisioterapia',
     image: '/images/dental/depoimento-1.webp',
   },
 ];
@@ -42,7 +42,7 @@ export function Testimonials() {
             Relatos de Quem Já Utiliza o Material
           </h2>
           <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl" style={{ color: '#5B6B8A' }}>
-            Veja as experiências de quem passou a estudar e revisar Anatomia Dental com mais clareza.
+            Veja como o Guia Visual de Gasometria Arterial tem ajudado nos estudos de quem já utiliza o material.
           </p>
         </div>
 
