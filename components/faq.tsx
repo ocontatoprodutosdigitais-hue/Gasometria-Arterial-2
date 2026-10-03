@@ -20,11 +20,11 @@ export function FAQ() {
     },
     {
       q: 'O material é físico ou digital?',
-      a: 'O material é digital, em PDF. Você não receberá um produto físico pelos Correios.',
+      a: 'O material é digital. Você recebe o Guia Visual de Gasometria Arterial e os três bônus organizados para estudar, revisar e consultar sempre que precisar.',
     },
     {
       q: 'Posso acessar pelo celular?',
-      a: 'Sim. O PDF pode ser aberto no celular, tablet ou computador. Você pode ampliar as páginas para visualizar os detalhes.',
+      a: 'Sim! Você pode estudar e consultar o material completo diretamente pelo celular, com a praticidade de ter o conteúdo à mão quando precisar. Também é possível acessar pelo tablet ou computador.',
     },
     {
       q: 'Posso imprimir?',
