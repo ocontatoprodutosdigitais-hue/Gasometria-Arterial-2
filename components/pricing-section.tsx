@@ -20,9 +20,9 @@ const includedFeatures: [string, string][] = [
 ];
 
 const bonuses = [
-  'Recurso #1 — 14 Casos Comentados',
-  'Recurso #2 — Roteiro de Interpretação',
-  'Recurso #3 — Fórmulas e Revisão Final',
+  'Bônus #1 — Biblioteca Visual de Laudos Comentados',
+  'Bônus #2 — Painéis Visuais dos Distúrbios Ácido-Base',
+  'Bônus #3 — Gasometrias que Confundem',
 ];
 
 function goToCheckout(url: string) {
