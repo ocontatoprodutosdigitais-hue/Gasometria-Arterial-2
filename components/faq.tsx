@@ -16,7 +16,7 @@ export function FAQ() {
     },
     {
       q: 'O material substitui livros e aulas?',
-      a: 'O guia funciona como material complementar de estudo e consulta. Não substitui livros, aulas, protocolos ou avaliação profissional. Os casos apresentados são fictícios e servem para praticar o raciocínio.',
+      a: 'O guia funciona como material complementar de estudo e consulta. Não substitui livros, aulas, protocolos ou avaliação profissional.',
     },
     {
       q: 'O material é físico ou digital?',
