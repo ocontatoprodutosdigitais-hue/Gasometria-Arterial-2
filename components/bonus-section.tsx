@@ -46,7 +46,7 @@ export function BonusSection() {
         {/* Cabeçalho */}
         <div className="flex flex-col items-center text-center gap-3 md:gap-4 mb-10 md:mb-14">
           <span className="font-grotesk text-xs sm:text-sm font-bold uppercase tracking-[0.2em]" style={{ color: '#FFFFFF' }}>
-            Bônus Inclusos
+            
           </span>
           <h2 className="font-grotesk text-3xl sm:text-4xl md:text-5xl leading-tight text-balance" style={{ color: '#173D55' }}>
             Além do material completo, Você Recebe Mais 3 Bônus para Complementar Seu Estudo
