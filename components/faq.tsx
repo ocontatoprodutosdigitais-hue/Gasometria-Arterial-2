@@ -36,7 +36,7 @@ export function FAQ() {
     },
     {
       q: 'Como funciona a garantia?',
-      a: 'Você tem 7 dias para conhecer o material. Caso ele não atenda às suas expectativas, poderá solicitar o reembolso pelo canal de atendimento informado na compra, dentro desse prazo.',
+      a: 'Você tem 7 dias para conhecer o material. Caso ele não atenda às suas expectativas, poderá solicitar o reembolso dentro desse período.',
     },
   ];
 
